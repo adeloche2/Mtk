@@ -43,3 +43,8 @@ Penumbra provides storage-type enums and device-reported eMMC/UFS structures. Th
 - eMMC CID MID table: official mappings separated from unofficial/community mappings.
 - Verified product subset: 33 individual DRAM, eMMC, UFS and raw NAND part numbers with sourced capacity/interface data.
 - Raw NAND product examples: 24 exact part numbers; capacity units distinguish per-die density (Gb) from packaged capacity (GB).
+
+
+## LPDDR identification details
+
+The LPDDR dictionaries now separate generation-specific MR5 manufacturer IDs and record the mode-register fields used for identification: MR5 manufacturer, MR6/MR7 revision, LPDDR4 MR8 density/width, and LPDDR5 MR47-MR54 serial bytes. The coreboot type-code file is explicitly labelled as a project enum, not a JEDEC code.
