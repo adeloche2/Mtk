@@ -418,7 +418,401 @@
       "data_rate_mt_s": 8533,
       "source": "https://semiconductor.samsung.com/dram/lpddr/lpddr5x/k3kl7l70em-mucu/",
       "evidence": "Samsung official product page."
+    },
+    {
+      "vendor": "samsung",
+      "part_number": "KLMCG8GEND-B041",
+      "technology": "eMMC",
+      "capacity": 64,
+      "capacity_unit": "GB",
+      "emmc_version": "5.1",
+      "bus_mode": "HS400",
+      "source": "https://semiconductor.samsung.com/emea/estorage/emmc/emmc-5-1/klmcg8gend-b041/",
+      "evidence": "Samsung official historical product page."
+    },
+    {
+      "vendor": "skhynix",
+      "part_number": "H26M51002KPR",
+      "technology": "eMMC",
+      "capacity": 16,
+      "capacity_unit": "GB",
+      "emmc_version": "5.1",
+      "source": "https://github.com/iTXTech/fdnext/blob/15e2dcc75aa5efd80223f2889e210e889c9fa196/docs/pn_code/skhynix_emmc.md",
+      "evidence": "SK hynix e-NAND datasheet ordering table."
+    },
+    {
+      "vendor": "skhynix",
+      "part_number": "H26M62002JPR",
+      "technology": "eMMC",
+      "capacity": 32,
+      "capacity_unit": "GB",
+      "emmc_version": "5.1",
+      "source": "https://datasheet.lcsc.com/lcsc/2204261415_SK-HYNIX-H26M62002JPR_C3002776.pdf",
+      "evidence": "SK hynix eMMC 5.1 datasheet."
+    },
+    {
+      "vendor": "skhynix",
+      "part_number": "H26M74002HMR",
+      "technology": "eMMC",
+      "capacity": 64,
+      "capacity_unit": "GB",
+      "emmc_version": "5.1",
+      "source": "https://github.com/iTXTech/fdnext/blob/15e2dcc75aa5efd80223f2889e210e889c9fa196/docs/pn_code/skhynix_emmc.md",
+      "evidence": "SK hynix e-NAND datasheet ordering table."
+    },
+    {
+      "vendor": "kioxia",
+      "part_number": "THGBMNG5D1LBAIT",
+      "technology": "eMMC",
+      "capacity": null,
+      "capacity_unit": "GB",
+      "emmc_version": null,
+      "source": "https://www.kioxia.com/content/dam/kioxia/shared/business/memory/mlc-nand/asset/productbrief/KIOXIA_e-MMC_Product_Brief.pdf",
+      "evidence": "Kioxia eMMC product brief lists this part; capacity not populated here because the retrieved summary did not expose the exact row value."
+    },
+    {
+      "vendor": "ymtc",
+      "part_number": "YMEC4A1MA1A2C1",
+      "technology": "eMMC",
+      "capacity": 8,
+      "capacity_unit": "GB",
+      "emmc_version": "5.1",
+      "source": "https://xcc2.oss-cn-shenzhen.aliyuncs.com/wareDetailPdf/1450014708439912450.pdf",
+      "evidence": "YMTC EC000 ordering table."
+    },
+    {
+      "vendor": "ymtc",
+      "part_number": "YMEC5A1MA2A2C1",
+      "technology": "eMMC",
+      "capacity": 16,
+      "capacity_unit": "GB",
+      "emmc_version": "5.1",
+      "source": "https://xcc2.oss-cn-shenzhen.aliyuncs.com/wareDetailPdf/1450014708439912450.pdf",
+      "evidence": "YMTC EC000 ordering table."
+    },
+    {
+      "vendor": "ymtc",
+      "part_number": "YMEC6A2TB1A2C3",
+      "technology": "eMMC",
+      "capacity": 32,
+      "capacity_unit": "GB",
+      "emmc_version": "5.1",
+      "source": "https://xcc2.oss-cn-shenzhen.aliyuncs.com/wareDetailPdf/1450014708439912450.pdf",
+      "evidence": "YMTC EC000/EC110 product data."
+    },
+    {
+      "vendor": "ymtc",
+      "part_number": "YMEC7A2TB2A2C3",
+      "technology": "eMMC",
+      "capacity": 64,
+      "capacity_unit": "GB",
+      "emmc_version": "5.1",
+      "source": "https://xcc2.oss-cn-shenzhen.aliyuncs.com/wareDetailPdf/1450014708439912450.pdf",
+      "evidence": "YMTC EC000/EC110 product data."
+    },
+    {
+      "vendor": "ymtc",
+      "part_number": "YMEC8A2TB3A2C3",
+      "technology": "eMMC",
+      "capacity": 128,
+      "capacity_unit": "GB",
+      "emmc_version": "5.1",
+      "source": "https://xcc2.oss-cn-shenzhen.aliyuncs.com/wareDetailPdf/1450014708439912450.pdf",
+      "evidence": "YMTC EC000/EC110 product data."
+    },
+    {
+      "vendor": "kingston",
+      "part_number": "EMMC64G-TY29",
+      "technology": "eMMC",
+      "capacity": 64,
+      "capacity_unit": "GB",
+      "emmc_version": "5.1",
+      "bus_mode": "HS400",
+      "source": "https://www.futureelectronics.com/p/semiconductors--memory--storage--embedded-storage/emmc256-iy29-5b101-kingston-9176810",
+      "evidence": "Kingston official product table and distributor cross-reference."
+    },
+    {
+      "vendor": "kingston",
+      "part_number": "EMMC256-IY29",
+      "technology": "eMMC",
+      "capacity": 256,
+      "capacity_unit": "GB",
+      "emmc_version": "5.1",
+      "bus_mode": "HS400",
+      "source": "https://www.futureelectronics.com/p/semiconductors--memory--storage--embedded-storage/emmc256-iy29-5b101-kingston-9176810",
+      "evidence": "Kingston official product table and distributor cross-reference."
+    },
+    {
+      "vendor": "longsys",
+      "part_number": "FEMDNN064G-A3A56",
+      "technology": "eMMC",
+      "capacity": 64,
+      "capacity_unit": "GB",
+      "source": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6697/FEMDNN064G-A3A56.pdf",
+      "evidence": "FORESEE eMMC datasheet."
+    },
+    {
+      "vendor": "longsys",
+      "part_number": "FEMDNN128G-A3A56",
+      "technology": "eMMC",
+      "capacity": 128,
+      "capacity_unit": "GB",
+      "source": "https://www.lcsc.com/product-detail/emmc_foresee_femdnn128g-a3a56_C5117596.html",
+      "evidence": "FORESEE product listing."
+    },
+    {
+      "vendor": "longsys",
+      "part_number": "FEMDNN256G-A3A56",
+      "technology": "eMMC",
+      "capacity": 256,
+      "capacity_unit": "GB",
+      "source": "https://www.longsys.com/uploads/BP_FORESEE_Embedded-Storage-Product-Catalogue_20230423_R_1704768357.pdf",
+      "evidence": "FORESEE Embedded Storage product catalogue."
+    },
+    {
+      "vendor": "biwin",
+      "part_number": "BWEFMI008GN929",
+      "technology": "eMMC",
+      "capacity": 8,
+      "capacity_unit": "GB",
+      "source": "https://www.biwintechnology.com/wp-content/uploads/2026/07/BIWIN-TGE408-eMMC-5.1-Specifications.pdf",
+      "evidence": "BIWIN TGE408 eMMC datasheet."
+    },
+    {
+      "vendor": "biwin",
+      "part_number": "BWEFMI016GN929",
+      "technology": "eMMC",
+      "capacity": 16,
+      "capacity_unit": "GB",
+      "source": "https://www.biwintechnology.com/wp-content/uploads/2026/07/BIWIN-TGE408-eMMC-5.1-Specifications.pdf",
+      "evidence": "BIWIN TGE408 eMMC datasheet."
+    },
+    {
+      "vendor": "biwin",
+      "part_number": "BWEFMI064GN929",
+      "technology": "eMMC",
+      "capacity": 64,
+      "capacity_unit": "GB",
+      "source": "https://www.biwintechnology.com/wp-content/uploads/2026/07/BIWIN-TGE408-eMMC-5.1-Specifications.pdf",
+      "evidence": "BIWIN TGE408 eMMC datasheet."
+    },
+    {
+      "vendor": "biwin",
+      "part_number": "BWEFMI128GN929",
+      "technology": "eMMC",
+      "capacity": 128,
+      "capacity_unit": "GB",
+      "source": "https://www.biwintechnology.com/wp-content/uploads/2026/07/BIWIN-TGE408-eMMC-5.1-Specifications.pdf",
+      "evidence": "BIWIN TGE408 eMMC datasheet."
+    },
+    {
+      "vendor": "kioxia",
+      "part_number": "THGJFJT0E18BAB8",
+      "technology": "UFS",
+      "capacity": 128,
+      "capacity_unit": "GB",
+      "ufs_version": "4.1",
+      "source": "https://www.kioxia.com/content/dam/kioxia/shared/business/memory/mlc-nand/asset/productbrief/KIOXIA_UFS_Product_Brief.pdf",
+      "evidence": "Kioxia automotive UFS product page."
+    },
+    {
+      "vendor": "kioxia",
+      "part_number": "THGJFJT1E28BAB8",
+      "technology": "UFS",
+      "capacity": 256,
+      "capacity_unit": "GB",
+      "ufs_version": "4.1",
+      "source": "https://www.kioxia.com/content/dam/kioxia/shared/business/memory/mlc-nand/asset/productbrief/KIOXIA_UFS_Product_Brief.pdf",
+      "evidence": "Kioxia automotive UFS product page."
+    },
+    {
+      "vendor": "kioxia",
+      "part_number": "THGJFJT2E48BAB8",
+      "technology": "UFS",
+      "capacity": 512,
+      "capacity_unit": "GB",
+      "ufs_version": "4.1",
+      "source": "https://www.kioxia.com/content/dam/kioxia/shared/business/memory/mlc-nand/asset/productbrief/KIOXIA_UFS_Product_Brief.pdf",
+      "evidence": "Kioxia automotive UFS product page."
+    },
+    {
+      "vendor": "kioxia",
+      "part_number": "THGJFJT3E88BAB5",
+      "technology": "UFS",
+      "capacity": 1024,
+      "capacity_unit": "GB",
+      "ufs_version": "4.1",
+      "source": "https://www.kioxia.com/content/dam/kioxia/shared/business/memory/mlc-nand/asset/productbrief/KIOXIA_UFS_Product_Brief.pdf",
+      "evidence": "Kioxia automotive UFS product page."
+    },
+    {
+      "vendor": "ymtc",
+      "part_number": "YMUS8A1TC2A2C1",
+      "technology": "UFS",
+      "capacity": 128,
+      "capacity_unit": "GB",
+      "ufs_version": "3.1",
+      "source": "https://github.com/iTXTech/fdnext/blob/15e2dcc75aa5efd80223f2889e210e889c9fa196/docs/pn_code/ymtc_ufs.md",
+      "evidence": "YMTC UFS product series and device cross-reference."
+    },
+    {
+      "vendor": "ymtc",
+      "part_number": "YMUS9A1TC3A2C1",
+      "technology": "UFS",
+      "capacity": 256,
+      "capacity_unit": "GB",
+      "ufs_version": "3.1",
+      "source": "https://github.com/iTXTech/fdnext/blob/15e2dcc75aa5efd80223f2889e210e889c9fa196/docs/pn_code/ymtc_ufs.md",
+      "evidence": "YMTC UFS product series and device cross-reference."
+    },
+    {
+      "vendor": "ymtc",
+      "part_number": "YMUSAA1TC4A2C1",
+      "technology": "UFS",
+      "capacity": 512,
+      "capacity_unit": "GB",
+      "ufs_version": "3.1",
+      "source": "https://github.com/iTXTech/fdnext/blob/15e2dcc75aa5efd80223f2889e210e889c9fa196/docs/pn_code/ymtc_ufs.md",
+      "evidence": "YMTC UFS product series and device cross-reference."
+    },
+    {
+      "vendor": "ymtc",
+      "part_number": "YMUS8A4TB3A2C1",
+      "technology": "UFS",
+      "capacity": 128,
+      "capacity_unit": "GB",
+      "source": "https://www.ymtc.com/en/resources/file/20211206/d1dcb33354659b1f7787eafd8b721224.pdf",
+      "evidence": "YMTC UC114 product datasheet."
+    },
+    {
+      "vendor": "ymtc",
+      "part_number": "YMUS9A4TB4A2C1",
+      "technology": "UFS",
+      "capacity": 256,
+      "capacity_unit": "GB",
+      "source": "https://www.ymtc.com/en/resources/file/20211206/d1dcb33354659b1f7787eafd8b721224.pdf",
+      "evidence": "YMTC UC114 product datasheet."
+    },
+    {
+      "vendor": "sandisk",
+      "part_number": "SDINFDQ6-64G-XA1",
+      "technology": "UFS",
+      "capacity": 64,
+      "capacity_unit": "GB",
+      "ufs_version": "3.1",
+      "source": "https://github.com/iTXTech/fdnext/blob/15e2dcc75aa5efd80223f2889e210e889c9fa196/docs/pn_code/sandisk_ufs.md",
+      "evidence": "SanDisk iNAND AT EU552 product brief."
+    },
+    {
+      "vendor": "sandisk",
+      "part_number": "SDINFDQ6-128G-XA1",
+      "technology": "UFS",
+      "capacity": 128,
+      "capacity_unit": "GB",
+      "ufs_version": "3.1",
+      "source": "https://github.com/iTXTech/fdnext/blob/15e2dcc75aa5efd80223f2889e210e889c9fa196/docs/pn_code/sandisk_ufs.md",
+      "evidence": "SanDisk iNAND AT EU552 product brief."
+    },
+    {
+      "vendor": "sandisk",
+      "part_number": "SDINFDQ6-256G-XA1",
+      "technology": "UFS",
+      "capacity": 256,
+      "capacity_unit": "GB",
+      "ufs_version": "3.1",
+      "source": "https://github.com/iTXTech/fdnext/blob/15e2dcc75aa5efd80223f2889e210e889c9fa196/docs/pn_code/sandisk_ufs.md",
+      "evidence": "SanDisk iNAND AT EU552 product brief."
+    },
+    {
+      "vendor": "sandisk",
+      "part_number": "SDINFDQ6-512G-XA1",
+      "technology": "UFS",
+      "capacity": 512,
+      "capacity_unit": "GB",
+      "ufs_version": "3.1",
+      "source": "https://github.com/iTXTech/fdnext/blob/15e2dcc75aa5efd80223f2889e210e889c9fa196/docs/pn_code/sandisk_ufs.md",
+      "evidence": "SanDisk iNAND AT EU552 product brief."
+    },
+    {
+      "vendor": "sandisk",
+      "part_number": "SDINHDL6-256G-ZA",
+      "technology": "UFS",
+      "capacity": 256,
+      "capacity_unit": "GB",
+      "ufs_version": "4.1",
+      "source": "https://github.com/iTXTech/fdnext/blob/15e2dcc75aa5efd80223f2889e210e889c9fa196/docs/pn_code/sandisk_ufs.md",
+      "evidence": "SanDisk iNAND AT EU752 product brief."
+    },
+    {
+      "vendor": "sandisk",
+      "part_number": "SDINHDL6-512G-ZA",
+      "technology": "UFS",
+      "capacity": 512,
+      "capacity_unit": "GB",
+      "ufs_version": "4.1",
+      "source": "https://github.com/iTXTech/fdnext/blob/15e2dcc75aa5efd80223f2889e210e889c9fa196/docs/pn_code/sandisk_ufs.md",
+      "evidence": "SanDisk iNAND AT EU752 product brief."
+    },
+    {
+      "vendor": "sandisk",
+      "part_number": "SDINHDL6-1T00-ZA",
+      "technology": "UFS",
+      "capacity": 1024,
+      "capacity_unit": "GB",
+      "ufs_version": "4.1",
+      "source": "https://github.com/iTXTech/fdnext/blob/15e2dcc75aa5efd80223f2889e210e889c9fa196/docs/pn_code/sandisk_ufs.md",
+      "evidence": "SanDisk iNAND AT EU752 product brief."
+    },
+    {
+      "vendor": "kingston",
+      "part_number": "UFS32G-TXA7",
+      "technology": "UFS",
+      "capacity": 32,
+      "capacity_unit": "GB",
+      "ufs_version": "2.1",
+      "source": "https://github.com/iTXTech/fdnext/blob/15e2dcc75aa5efd80223f2889e210e889c9fa196/docs/pn_code/kingston_ufs.md",
+      "evidence": "Kingston official UFS design-in product sheet."
+    },
+    {
+      "vendor": "kingston",
+      "part_number": "UFS64G-TXA7",
+      "technology": "UFS",
+      "capacity": 64,
+      "capacity_unit": "GB",
+      "ufs_version": "2.1",
+      "source": "https://github.com/iTXTech/fdnext/blob/15e2dcc75aa5efd80223f2889e210e889c9fa196/docs/pn_code/kingston_ufs.md",
+      "evidence": "Kingston official UFS design-in product sheet."
+    },
+    {
+      "vendor": "kingston",
+      "part_number": "UFS64G-CY14",
+      "technology": "UFS",
+      "capacity": 64,
+      "capacity_unit": "GB",
+      "ufs_version": "3.1",
+      "source": "https://github.com/iTXTech/fdnext/blob/15e2dcc75aa5efd80223f2889e210e889c9fa196/docs/pn_code/kingston_ufs.md",
+      "evidence": "Kingston official UFS product table."
+    },
+    {
+      "vendor": "kingston",
+      "part_number": "UFS128-CY14",
+      "technology": "UFS",
+      "capacity": 128,
+      "capacity_unit": "GB",
+      "ufs_version": "3.1",
+      "source": "https://github.com/iTXTech/fdnext/blob/15e2dcc75aa5efd80223f2889e210e889c9fa196/docs/pn_code/kingston_ufs.md",
+      "evidence": "Kingston official UFS product table."
+    },
+    {
+      "vendor": "kingston",
+      "part_number": "UFS256-CY14",
+      "technology": "UFS",
+      "capacity": 256,
+      "capacity_unit": "GB",
+      "ufs_version": "3.1",
+      "source": "https://github.com/iTXTech/fdnext/blob/15e2dcc75aa5efd80223f2889e210e889c9fa196/docs/pn_code/kingston_ufs.md",
+      "evidence": "Kingston official UFS product table."
     }
   ],
-  "record_count": 39
+  "record_count": 79
 }
