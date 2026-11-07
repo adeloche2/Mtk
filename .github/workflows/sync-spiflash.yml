@@ -1,0 +1,33 @@
+name: Sync SPI flash dictionaries
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Download pinned SPI flash datasets
+        run: python tools/sync_spiflash.py
+      - name: Commit imported dictionaries
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/flash/spi/records.json data/flash/spi/manufacturers.json data/flash/spi/sources.json data/flash/spi/download_manifest.json
+          if git diff --cached --quiet; then
+            echo "SPI flash dictionaries are already up to date."
+          else
+            git commit -m "Import SPI NOR and SPI NAND dictionaries"
+            git push origin HEAD:main
+          fi
