@@ -351,7 +351,74 @@
       "data_rate_mt_s": 4266,
       "source": "https://www.xcmemory.com/datasheet/DS-01314-GDB5CBQN-Rev1.1xc.pdf",
       "evidence": "GigaDevice/XCMemory product datasheet."
+    },
+    {
+      "vendor": "micron",
+      "part_number": "MT53E1G32D2FW-046-AIT-A",
+      "technology": "LPDDR4",
+      "capacity": 32,
+      "capacity_unit": "Gb",
+      "io_width": "x32",
+      "data_rate_mt_s": 4266,
+      "source": "https://www.micron.com/products/memory/dram-components/lpddr4/part-catalog/part-detail/mt53e1g32d2fw-046-ait-a",
+      "evidence": "Micron official LPDDR4 product page and ordering table."
+    },
+    {
+      "vendor": "micron",
+      "part_number": "MT62F1G32D4DS-031-WT-B",
+      "technology": "LPDDR5",
+      "capacity": 32,
+      "capacity_unit": "Gb",
+      "io_width": "x32",
+      "data_rate_mt_s": 6400,
+      "source": "https://www.micron.com/products/memory/dram-components/lpddr5/part-catalog/part-detail/mt62f1g32d4ds-031-wt-b",
+      "evidence": "Micron official LPDDR5 product page."
+    },
+    {
+      "vendor": "micron",
+      "part_number": "MT52L512M32D2PF-107-WT-B",
+      "technology": "LPDDR3",
+      "capacity": 16,
+      "capacity_unit": "Gb",
+      "io_width": "x32",
+      "source": "https://www.micron.com/products/memory/dram-components/lpddr-components/part-catalog/part-detail/mt52l512m32d2pf-107-wt-b",
+      "evidence": "Micron official product page; 512M32 organisation."
+    },
+    {
+      "vendor": "micron",
+      "part_number": "MT62F1G64D4EK-023-WT-B",
+      "technology": "LPDDR5X",
+      "capacity": 64,
+      "capacity_unit": "Gb",
+      "io_width": "x64",
+      "data_rate_mt_s": 8533,
+      "source": "https://www.micron.com/products/memory/dram-components/lpddr5x/part-catalog",
+      "evidence": "Micron official LPDDR5X catalog and distributor cross-reference."
+    },
+    {
+      "vendor": "samsung",
+      "part_number": "K3KL3L30CM-JGCT",
+      "technology": "LPDDR5X",
+      "capacity": 64,
+      "capacity_unit": "Gb",
+      "io_width": "x64",
+      "package": "FBGA-441",
+      "data_rate_mt_s": 7500,
+      "source": "https://semiconductor.samsung.com/dram/lpddr/lpddr5x/k3kl3l30cm-jgct/",
+      "evidence": "Samsung official product page."
+    },
+    {
+      "vendor": "samsung",
+      "part_number": "K3KL7L70EM-MUCU",
+      "technology": "LPDDR5X",
+      "capacity": 24,
+      "capacity_unit": "Gb",
+      "io_width": "x32",
+      "package": "FBGA-315",
+      "data_rate_mt_s": 8533,
+      "source": "https://semiconductor.samsung.com/dram/lpddr/lpddr5x/k3kl7l70em-mucu/",
+      "evidence": "Samsung official product page."
     }
   ],
-  "record_count": 33
+  "record_count": 39
 }
