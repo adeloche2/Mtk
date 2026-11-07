@@ -28,3 +28,10 @@ This page lists the structured dictionaries currently committed.
 5. Complete Raw NAND parser including legacy macro expansion and additional vendor sources.
 6. Exhaustive XFlash error-code tables across DA versions.
 7. Full GFH field schemas and version compatibility, beyond the type IDs.
+
+| DRAM part-number index | `data/dram/part_numbers.json` | 3,169 part numbers, 13 vendors; capacity deliberately null until verified. |
+| LPDDR MR5 manufacturer IDs | `data/dram/lpddr_mr5_manufacturer_ids.json` | Separate LPDDR2/3, LPDDR4 and LPDDR5 ID tables. |
+| Managed flash PN index | `data/storage/managed_nand_part_numbers.json` | 891 part numbers across 13 vendors; includes mixed eMMC/UFS/MCP categories not yet individually classified. |
+| eMMC CID manufacturers | `data/storage/emmc_cid_manufacturers.json` | CID MID map with source-quality labels. |
+| Verified product subset | `data/storage/verified_products.json` | Individually sourced DRAM/eMMC/UFS part numbers and capacities. |
+| Raw NAND verified PN | `data/flash/raw_nand/verified_part_numbers.json` | 24 raw NAND commercial part numbers with capacity and ID evidence where available. |
