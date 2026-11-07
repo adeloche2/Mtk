@@ -35,3 +35,9 @@ This page lists the structured dictionaries currently committed.
 | eMMC CID manufacturers | `data/storage/emmc_cid_manufacturers.json` | CID MID map with source-quality labels. |
 | Verified product subset | `data/storage/verified_products.json` | Individually sourced DRAM/eMMC/UFS part numbers and capacities. |
 | Raw NAND verified PN | `data/flash/raw_nand/verified_part_numbers.json` | 24 raw NAND commercial part numbers with capacity and ID evidence where available. |
+
+| LPDDR mode registers | `data/dram/lpddr_mode_registers.json` | MR5 vendor, MR6/MR7 revision, MR8 density/width (LPDDR4), MR47-MR54 serial ID (LPDDR5), with generation caveats. |
+| Coreboot DRAM type enum | `data/dram/coreboot_memory_type_codes.json` | Coreboot-specific codes for DDR3/4/5 and LPDDR3/4/4X/5/5X; not universal JEDEC codes. |
+| DRAM vendor decoding index | `data/dram/vendor_reference_index.json` | 13 vendor-specific decoding guides. |
+| Managed-storage vendor index | `data/storage/vendor_reference_index.json` | 12 vendor-specific eMMC/UFS reference documents. |
+| Raw NAND vendor index | `data/flash/raw_nand/vendor_reference_index.json` | 10 vendor-specific raw NAND reference documents. |
