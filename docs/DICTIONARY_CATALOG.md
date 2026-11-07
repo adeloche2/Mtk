@@ -41,3 +41,6 @@ This page lists the structured dictionaries currently committed.
 | DRAM vendor decoding index | `data/dram/vendor_reference_index.json` | 13 vendor-specific decoding guides. |
 | Managed-storage vendor index | `data/storage/vendor_reference_index.json` | 12 vendor-specific eMMC/UFS reference documents. |
 | Raw NAND vendor index | `data/flash/raw_nand/vendor_reference_index.json` | 10 vendor-specific raw NAND reference documents. |
+
+| UFS manufacturer IDs | `data/storage/ufs_manufacturer_ids.json` | UFS-specific 16-bit values observed in a Preloader parser; source subset, not complete JEDEC allocation. |
+| Raw NAND manufacturer IDs | `data/flash/raw_nand/manufacturer_ids.json` | Common first-byte manufacturer mappings, not unique part identifiers. |

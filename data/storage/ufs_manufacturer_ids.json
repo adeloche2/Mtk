@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "description": "UFS vendor/manufacturer identifiers observed in the MediaTek Preloader parser's UFS vendor constants. These are UFS-specific values and must not be confused with the 8-bit eMMC CID MID.",
+  "source": "https://github.com/mfdl/MTKPreloaderParser/blob/main/emi_structures.h",
+  "entries": [
+    {
+      "id": "0x012C",
+      "manufacturer": "Micron Technology",
+      "variant": "MP",
+      "source_symbol": "UFS_VENDOR_MICRON_MP"
+    },
+    {
+      "id": "0x002C",
+      "manufacturer": "Micron Technology",
+      "variant": "ES",
+      "source_symbol": "UFS_VENDOR_MICRON_ES"
+    },
+    {
+      "id": "0x0198",
+      "manufacturer": "Toshiba / Kioxia",
+      "variant": null,
+      "source_symbol": "UFS_VENDOR_TOSHIBA"
+    },
+    {
+      "id": "0x01CE",
+      "manufacturer": "Samsung",
+      "variant": null,
+      "source_symbol": "UFS_VENDOR_SAMSUNG"
+    },
+    {
+      "id": "0x01AD",
+      "manufacturer": "SK hynix",
+      "variant": null,
+      "source_symbol": "UFS_VENDOR_SKHYNIX"
+    }
+  ],
+  "notes": [
+    "This is a source-observed subset, not a complete current JEDEC UFS manufacturer allocation table.",
+    "Micron MP and ES are kept as distinct values because the source defines two separate constants.",
+    "When reading UFS descriptors, preserve the raw 16-bit value and its byte order before applying this mapping."
+  ]
+}

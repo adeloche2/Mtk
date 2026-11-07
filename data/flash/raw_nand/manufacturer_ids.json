@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "description": "Common raw NAND Flash ID manufacturer-byte mappings used by the curated device-ID examples. Values are first-byte manufacturer codes, not JEDEC JEP106 banked IDs.",
+  "source": "https://github.com/torvalds/linux/blob/master/drivers/mtd/nand/raw/nand_ids.c",
+  "entries": [
+    {
+      "id": "0xEC",
+      "manufacturer": "Samsung",
+      "evidence": "Samsung raw NAND ID examples"
+    },
+    {
+      "id": "0xAD",
+      "manufacturer": "SK hynix",
+      "evidence": "SK hynix raw NAND datasheet ID examples"
+    },
+    {
+      "id": "0x98",
+      "manufacturer": "Toshiba / Kioxia",
+      "evidence": "Kioxia/Toshiba raw NAND ID examples"
+    },
+    {
+      "id": "0xEF",
+      "manufacturer": "Winbond",
+      "evidence": "Winbond raw NAND ID examples"
+    },
+    {
+      "id": "0x2C",
+      "manufacturer": "Micron Technology",
+      "evidence": "Common Micron NAND ID manufacturer byte"
+    },
+    {
+      "id": "0x9B",
+      "manufacturer": "YMTC",
+      "evidence": "YMTC Gen2 NAND datasheet manufacturer ID"
+    },
+    {
+      "id": "0x45",
+      "manufacturer": "SanDisk",
+      "evidence": "Flash ID vendor-byte mapping; device support varies"
+    }
+  ],
+  "notes": [
+    "Device ID bytes after the manufacturer byte are generation-specific.",
+    "A manufacturer byte alone does not identify a unique NAND part."
+  ]
+}
