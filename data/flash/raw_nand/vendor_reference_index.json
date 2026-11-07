@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "description": "Raw NAND vendor part-number and Flash ID reference documents.",
+  "source_repository": "https://github.com/iTXTech/fdnext/tree/15e2dcc75aa5efd80223f2889e210e889c9fa196/docs/pn_code",
+  "vendors": [
+    {
+      "vendor": "samsung",
+      "reference": "https://github.com/iTXTech/fdnext/tree/15e2dcc75aa5efd80223f2889e210e889c9fa196/docs/pn_code/samsung_nand.md"
+    },
+    {
+      "vendor": "skhynix",
+      "reference": "https://github.com/iTXTech/fdnext/tree/15e2dcc75aa5efd80223f2889e210e889c9fa196/docs/pn_code/skhynix_nand.md"
+    },
+    {
+      "vendor": "micron",
+      "reference": "https://github.com/iTXTech/fdnext/tree/15e2dcc75aa5efd80223f2889e210e889c9fa196/docs/pn_code/micron_nand.md"
+    },
+    {
+      "vendor": "kioxia",
+      "reference": "https://github.com/iTXTech/fdnext/tree/15e2dcc75aa5efd80223f2889e210e889c9fa196/docs/pn_code/kioxia_nand.md"
+    },
+    {
+      "vendor": "ymtc",
+      "reference": "https://github.com/iTXTech/fdnext/tree/15e2dcc75aa5efd80223f2889e210e889c9fa196/docs/pn_code/ymtc_nand.md"
+    },
+    {
+      "vendor": "winbond",
+      "reference": "https://github.com/iTXTech/fdnext/tree/15e2dcc75aa5efd80223f2889e210e889c9fa196/docs/pn_code/winbond_nand.md"
+    },
+    {
+      "vendor": "sandisk",
+      "reference": "https://github.com/iTXTech/fdnext/tree/15e2dcc75aa5efd80223f2889e210e889c9fa196/docs/pn_code/sandisk_raw.md"
+    },
+    {
+      "vendor": "macronix",
+      "reference": "https://github.com/iTXTech/fdnext/tree/15e2dcc75aa5efd80223f2889e210e889c9fa196/docs/pn_code/macronix_nand.md"
+    },
+    {
+      "vendor": "issi",
+      "reference": "https://github.com/iTXTech/fdnext/tree/15e2dcc75aa5efd80223f2889e210e889c9fa196/docs/pn_code/issi_nand.md"
+    },
+    {
+      "vendor": "esmt",
+      "reference": "https://github.com/iTXTech/fdnext/tree/15e2dcc75aa5efd80223f2889e210e889c9fa196/docs/pn_code/esmt_nand.md"
+    }
+  ]
+}

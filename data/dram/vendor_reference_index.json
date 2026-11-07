@@ -1,0 +1,138 @@
+{
+  "schema_version": 1,
+  "description": "Vendor-specific DRAM PN decoding documentation index; part-number presence counts are in part_numbers.json.",
+  "source_repository": "https://github.com/iTXTech/fdnext/tree/15e2dcc75aa5efd80223f2889e210e889c9fa196/docs/pn_code",
+  "vendors": [
+    {
+      "vendor": "samsung",
+      "document": "https://github.com/iTXTech/fdnext/tree/15e2dcc75aa5efd80223f2889e210e889c9fa196/docs/pn_code/samsung_dram.md",
+      "technologies": [
+        "DDR3",
+        "DDR4",
+        "DDR5",
+        "LPDDR4",
+        "LPDDR4X",
+        "LPDDR5",
+        "LPDDR5X"
+      ],
+      "part_number_count_reference": "data/dram/part_numbers.json"
+    },
+    {
+      "vendor": "nanya",
+      "document": "https://github.com/iTXTech/fdnext/tree/15e2dcc75aa5efd80223f2889e210e889c9fa196/docs/pn_code/nanya_dram.md",
+      "technologies": [
+        "DDR",
+        "LPDDR3"
+      ],
+      "part_number_count_reference": "data/dram/part_numbers.json"
+    },
+    {
+      "vendor": "elpida",
+      "document": "https://github.com/iTXTech/fdnext/tree/15e2dcc75aa5efd80223f2889e210e889c9fa196/docs/pn_code/elpida_dram.md",
+      "technologies": [
+        "DRAM",
+        "LPDDR"
+      ],
+      "part_number_count_reference": "data/dram/part_numbers.json"
+    },
+    {
+      "vendor": "cxmt",
+      "document": "https://github.com/iTXTech/fdnext/tree/15e2dcc75aa5efd80223f2889e210e889c9fa196/docs/pn_code/cxmt_dram.md",
+      "technologies": [
+        "DDR4",
+        "DDR5",
+        "LPDDR4X",
+        "LPDDR5/5X (product-family evidence; PN decoding partial)"
+      ],
+      "part_number_count_reference": "data/dram/part_numbers.json"
+    },
+    {
+      "vendor": "skhynix",
+      "document": "https://github.com/iTXTech/fdnext/tree/15e2dcc75aa5efd80223f2889e210e889c9fa196/docs/pn_code/skhynix_dram.md",
+      "technologies": [
+        "DDR3",
+        "DDR3L",
+        "DDR4",
+        "LPDDR4",
+        "LPDDR4X"
+      ],
+      "part_number_count_reference": "data/dram/part_numbers.json"
+    },
+    {
+      "vendor": "micron",
+      "document": "https://github.com/iTXTech/fdnext/tree/15e2dcc75aa5efd80223f2889e210e889c9fa196/docs/pn_code/micron_dram.md",
+      "technologies": [
+        "DDR2/3/4/5",
+        "LPDDR2/3/4/4X/5/5X",
+        "GDDR",
+        "RLDRAM"
+      ],
+      "part_number_count_reference": "data/dram/part_numbers.json"
+    },
+    {
+      "vendor": "issi",
+      "document": "https://github.com/iTXTech/fdnext/tree/15e2dcc75aa5efd80223f2889e210e889c9fa196/docs/pn_code/issi_dram.md",
+      "technologies": [
+        "DDR2/3/4",
+        "LPDDR",
+        "LPDDR2",
+        "LPDDR4/4X"
+      ],
+      "part_number_count_reference": "data/dram/part_numbers.json"
+    },
+    {
+      "vendor": "winbond",
+      "document": "https://github.com/iTXTech/fdnext/tree/15e2dcc75aa5efd80223f2889e210e889c9fa196/docs/pn_code/winbond_dram.md",
+      "technologies": [
+        "SDR",
+        "DDR/DDR2/DDR3/DDR4",
+        "LPDDR/2/3/4/4X"
+      ],
+      "part_number_count_reference": "data/dram/part_numbers.json"
+    },
+    {
+      "vendor": "esmt",
+      "document": "https://github.com/iTXTech/fdnext/tree/15e2dcc75aa5efd80223f2889e210e889c9fa196/docs/pn_code/esmt_dram.md",
+      "technologies": [
+        "SDR",
+        "DDR2/3/4",
+        "LPDDR/2/3/4X"
+      ],
+      "part_number_count_reference": "data/dram/part_numbers.json"
+    },
+    {
+      "vendor": "etron",
+      "document": "https://github.com/iTXTech/fdnext/tree/15e2dcc75aa5efd80223f2889e210e889c9fa196/docs/pn_code/etron_dram.md",
+      "technologies": [
+        "DDR3/DDR4"
+      ],
+      "part_number_count_reference": "data/dram/part_numbers.json"
+    },
+    {
+      "vendor": "gigadevice",
+      "document": "https://github.com/iTXTech/fdnext/tree/15e2dcc75aa5efd80223f2889e210e889c9fa196/docs/pn_code/gigadevice_dram.md",
+      "technologies": [
+        "DDR3L",
+        "DDR4",
+        "LPDDR4X"
+      ],
+      "part_number_count_reference": "data/dram/part_numbers.json"
+    },
+    {
+      "vendor": "biwin",
+      "document": "https://github.com/iTXTech/fdnext/tree/15e2dcc75aa5efd80223f2889e210e889c9fa196/docs/pn_code/biwin_dram.md",
+      "technologies": [
+        "DRAM (vendor-specific coverage)"
+      ],
+      "part_number_count_reference": "data/dram/part_numbers.json"
+    },
+    {
+      "vendor": "longsys",
+      "document": "https://github.com/iTXTech/fdnext/tree/15e2dcc75aa5efd80223f2889e210e889c9fa196/docs/pn_code/longsys_dram.md",
+      "technologies": [
+        "DRAM modules/components (vendor-specific coverage)"
+      ],
+      "part_number_count_reference": "data/dram/part_numbers.json"
+    }
+  ]
+}

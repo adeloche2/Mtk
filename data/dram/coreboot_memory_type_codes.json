@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "description": "Project-specific mem_chip_type enum values from coreboot mem_chip_info.h. These are not universal JEDEC IDs or MediaTek HW codes.",
+  "source": "https://github.com/coreboot/coreboot/blob/99ba9d7525c8a18d6b46cf4370467cf249039d47/src/commonlib/bsd/include/commonlib/bsd/mem_chip_info.h",
+  "entries": [
+    {
+      "code": "0x30",
+      "name": "DDR3"
+    },
+    {
+      "code": "0x38",
+      "name": "LPDDR3"
+    },
+    {
+      "code": "0x40",
+      "name": "DDR4"
+    },
+    {
+      "code": "0x48",
+      "name": "LPDDR4"
+    },
+    {
+      "code": "0x49",
+      "name": "LPDDR4X"
+    },
+    {
+      "code": "0x50",
+      "name": "DDR5"
+    },
+    {
+      "code": "0x58",
+      "name": "LPDDR5"
+    },
+    {
+      "code": "0x59",
+      "name": "LPDDR5X"
+    }
+  ]
+}

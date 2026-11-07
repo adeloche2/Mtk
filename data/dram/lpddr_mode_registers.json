@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "description": "LPDDR mode-register field inventory for identifying the DRAM vendor, revision, density and topology. Register meaning is generation-dependent.",
+  "sources": [
+    "https://github.com/coreboot/coreboot/blob/99ba9d7525c8a18d6b46cf4370467cf249039d47/src/commonlib/bsd/include/commonlib/bsd/mem_chip_info.h",
+    "https://github.com/mfdl/MTKPreloaderParser/blob/main/emi_structures.h"
+  ],
+  "register_fields": [
+    {
+      "register": "MR5",
+      "field": "manufacturer_id",
+      "applies_to": [
+        "LPDDR2",
+        "LPDDR3",
+        "LPDDR4",
+        "LPDDR5"
+      ],
+      "notes": "LPDDR manufacturer ID; decode with the matching generation's JEP166 table."
+    },
+    {
+      "register": "MR6",
+      "field": "revision_id_byte_0",
+      "applies_to": [
+        "LPDDR4",
+        "LPDDR5"
+      ],
+      "notes": "First revision-ID byte in coreboot memory-chip record."
+    },
+    {
+      "register": "MR7",
+      "field": "revision_id_byte_1",
+      "applies_to": [
+        "LPDDR4",
+        "LPDDR5"
+      ],
+      "notes": "Second revision-ID byte in coreboot memory-chip record."
+    },
+    {
+      "register": "MR8",
+      "field": "density_and_io_width",
+      "applies_to": [
+        "LPDDR4"
+      ],
+      "notes": "Coreboot documents decoding density_mbits and io_width from MR8. Example MR8 0x10 -> 8192 Mbit, x16. Decode bit fields per the exact JEDEC generation/revision."
+    },
+    {
+      "register_range": "MR47-MR54",
+      "field": "serial_id",
+      "applies_to": [
+        "LPDDR5"
+      ],
+      "notes": "Eight-byte serial ID field recorded by coreboot; not a public part number."
+    },
+    {
+      "registers": [
+        "MR1",
+        "MR2",
+        "MR3",
+        "MR5",
+        "MR10",
+        "MR63"
+      ],
+      "applies_to": [
+        "LPDDR2",
+        "LPDDR3"
+      ],
+      "notes": "These registers appear in MediaTek EMIInfoV12 schema. MR5 is annotated as vendor ID; remaining semantics must be decoded per JEDEC specification."
+    }
+  ],
+  "warnings": [
+    "Do not reuse MR8 bit interpretations across LPDDR generations without checking the applicable JEDEC specification.",
+    "MR5 identifies the wafer manufacturer, not necessarily the brand printed on a packaged module.",
+    "Revision IDs and serial IDs are device-reported values, not guaranteed to map to a commercial ordering part number."
+  ]
+}

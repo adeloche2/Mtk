@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "description": "Vendor-specific eMMC/UFS/managed flash PN decoding documentation index. A vendor document may cover only one product family; do not infer all records from vendor name.",
+  "source_repository": "https://github.com/iTXTech/fdnext/tree/15e2dcc75aa5efd80223f2889e210e889c9fa196/docs/pn_code",
+  "vendors": [
+    {
+      "vendor": "samsung",
+      "emmc_reference": "https://github.com/iTXTech/fdnext/tree/15e2dcc75aa5efd80223f2889e210e889c9fa196/docs/pn_code/samsung_emmc.md",
+      "ufs_reference": "https://github.com/iTXTech/fdnext/tree/15e2dcc75aa5efd80223f2889e210e889c9fa196/docs/pn_code/samsung_ufs.md",
+      "part_number_count_reference": "data/storage/managed_nand_part_numbers.json"
+    },
+    {
+      "vendor": "skhynix",
+      "emmc_reference": "https://github.com/iTXTech/fdnext/tree/15e2dcc75aa5efd80223f2889e210e889c9fa196/docs/pn_code/skhynix_emmc.md",
+      "ufs_reference": "https://github.com/iTXTech/fdnext/tree/15e2dcc75aa5efd80223f2889e210e889c9fa196/docs/pn_code/skhynix_ufs.md",
+      "part_number_count_reference": "data/storage/managed_nand_part_numbers.json"
+    },
+    {
+      "vendor": "micron",
+      "emmc_reference": "https://github.com/iTXTech/fdnext/tree/15e2dcc75aa5efd80223f2889e210e889c9fa196/docs/pn_code/micron_emmc.md",
+      "ufs_reference": "https://github.com/iTXTech/fdnext/tree/15e2dcc75aa5efd80223f2889e210e889c9fa196/docs/pn_code/micron_ufs.md",
+      "part_number_count_reference": "data/storage/managed_nand_part_numbers.json"
+    },
+    {
+      "vendor": "kioxia",
+      "emmc_reference": "https://github.com/iTXTech/fdnext/tree/15e2dcc75aa5efd80223f2889e210e889c9fa196/docs/pn_code/kioxia_emmc.md",
+      "ufs_reference": "https://github.com/iTXTech/fdnext/tree/15e2dcc75aa5efd80223f2889e210e889c9fa196/docs/pn_code/kioxia_ufs.md",
+      "part_number_count_reference": "data/storage/managed_nand_part_numbers.json"
+    },
+    {
+      "vendor": "sandisk",
+      "emmc_reference": "https://github.com/iTXTech/fdnext/tree/15e2dcc75aa5efd80223f2889e210e889c9fa196/docs/pn_code/sandisk_emmc.md",
+      "ufs_reference": "https://github.com/iTXTech/fdnext/tree/15e2dcc75aa5efd80223f2889e210e889c9fa196/docs/pn_code/sandisk_ufs.md",
+      "part_number_count_reference": "data/storage/managed_nand_part_numbers.json"
+    },
+    {
+      "vendor": "kingston",
+      "emmc_reference": "https://github.com/iTXTech/fdnext/tree/15e2dcc75aa5efd80223f2889e210e889c9fa196/docs/pn_code/kingston_emmc.md",
+      "ufs_reference": "https://github.com/iTXTech/fdnext/tree/15e2dcc75aa5efd80223f2889e210e889c9fa196/docs/pn_code/kingston_ufs.md",
+      "part_number_count_reference": "data/storage/managed_nand_part_numbers.json"
+    },
+    {
+      "vendor": "longsys",
+      "emmc_reference": "https://github.com/iTXTech/fdnext/tree/15e2dcc75aa5efd80223f2889e210e889c9fa196/docs/pn_code/longsys_emmc.md",
+      "ufs_reference": "https://github.com/iTXTech/fdnext/tree/15e2dcc75aa5efd80223f2889e210e889c9fa196/docs/pn_code/longsys_ufs.md",
+      "part_number_count_reference": "data/storage/managed_nand_part_numbers.json"
+    },
+    {
+      "vendor": "biwin",
+      "emmc_reference": "https://github.com/iTXTech/fdnext/tree/15e2dcc75aa5efd80223f2889e210e889c9fa196/docs/pn_code/biwin_emmc.md",
+      "ufs_reference": "https://github.com/iTXTech/fdnext/tree/15e2dcc75aa5efd80223f2889e210e889c9fa196/docs/pn_code/biwin_ufs.md",
+      "part_number_count_reference": "data/storage/managed_nand_part_numbers.json"
+    },
+    {
+      "vendor": "issi",
+      "emmc_reference": "https://github.com/iTXTech/fdnext/tree/15e2dcc75aa5efd80223f2889e210e889c9fa196/docs/pn_code/issi_emmc.md",
+      "ufs_reference": "https://github.com/iTXTech/fdnext/tree/15e2dcc75aa5efd80223f2889e210e889c9fa196/docs/pn_code/issi_ufs.md",
+      "part_number_count_reference": "data/storage/managed_nand_part_numbers.json"
+    },
+    {
+      "vendor": "siliconmotion",
+      "emmc_reference": "https://github.com/iTXTech/fdnext/tree/15e2dcc75aa5efd80223f2889e210e889c9fa196/docs/pn_code/siliconmotion_emmc.md",
+      "ufs_reference": "https://github.com/iTXTech/fdnext/tree/15e2dcc75aa5efd80223f2889e210e889c9fa196/docs/pn_code/siliconmotion_ufs.md",
+      "part_number_count_reference": "data/storage/managed_nand_part_numbers.json"
+    },
+    {
+      "vendor": "ymtc",
+      "emmc_reference": "https://github.com/iTXTech/fdnext/tree/15e2dcc75aa5efd80223f2889e210e889c9fa196/docs/pn_code/ymtc_emmc.md",
+      "ufs_reference": "https://github.com/iTXTech/fdnext/tree/15e2dcc75aa5efd80223f2889e210e889c9fa196/docs/pn_code/ymtc_ufs.md",
+      "part_number_count_reference": "data/storage/managed_nand_part_numbers.json"
+    },
+    {
+      "vendor": "esmt",
+      "emmc_reference": "https://github.com/iTXTech/fdnext/tree/15e2dcc75aa5efd80223f2889e210e889c9fa196/docs/pn_code/esmt_emmc.md",
+      "ufs_reference": null,
+      "part_number_count_reference": "data/storage/managed_nand_part_numbers.json"
+    }
+  ]
+}
