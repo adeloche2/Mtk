@@ -33,7 +33,7 @@ This page lists the structured dictionaries currently committed.
 | LPDDR MR5 manufacturer IDs | `data/dram/lpddr_mr5_manufacturer_ids.json` | Separate LPDDR2/3, LPDDR4 and LPDDR5 ID tables. |
 | Managed flash PN index | `data/storage/managed_nand_part_numbers.json` | 891 part numbers across 13 vendors; includes mixed eMMC/UFS/MCP categories not yet individually classified. |
 | eMMC CID manufacturers | `data/storage/emmc_cid_manufacturers.json` | CID MID map with source-quality labels. |
-| Verified product subset | `data/storage/verified_products.json` | Individually sourced DRAM/eMMC/UFS part numbers and capacities. |
+| Verified product subset | `data/storage/verified_products.json` | 79 sourced examples: 21 DRAM/LPDDR, 22 eMMC and 36 UFS; unresolved fields remain null. |
 | Raw NAND verified PN | `data/flash/raw_nand/verified_part_numbers.json` | 24 raw NAND commercial part numbers with capacity and ID evidence where available. |
 
 | LPDDR mode registers | `data/dram/lpddr_mode_registers.json` | MR5 vendor, MR6/MR7 revision, MR8 density/width (LPDDR4), MR47-MR54 serial ID (LPDDR5), with generation caveats. |
