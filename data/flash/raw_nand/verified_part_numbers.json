@@ -140,10 +140,11 @@
       "technology": "raw_nand",
       "capacity": 1,
       "capacity_unit": "Gbit",
-      "flash_id": "0xEC A1 00 15",
+      "flash_id": null,
       "source": "https://github.com/iTXTech/fdnext/blob/15e2dcc75aa5efd80223f2889e210e889c9fa196/docs/pn_code/samsung_nand.md",
       "capacity_scope": "device_density",
-      "confidence": "source_documented"
+      "confidence": "source_documented",
+      "flash_id_note": "Samsung datasheet gives EC A1/F1 with a variable third byte; no fixed third byte is asserted."
     },
     {
       "vendor": "Samsung",
