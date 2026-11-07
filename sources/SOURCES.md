@@ -14,3 +14,8 @@
 The SPI flash sync utility downloads the generated JSON dictionaries from mithro/spiflash. Its `sources.json` records the exact upstream commits used to generate the imported source records. Record the sync date and SHA-256 hashes after each import.
 
 Do not combine records from different upstream snapshots without preserving per-record provenance.
+
+| DRAM / eMMC / UFS part-number indexes | https://github.com/iTXTech/fdnext | Part-number presence indexes (3,169 DRAM; 891 managed NAND/MCP) and vendor-specific decoding reference documents | AGPL-3.0-or-later. Exact source commit pinned in `sources/PART_NUMBER_DATASETS.md`; license text is stored in `LICENSES/AGPL-3.0-or-later.txt`. |
+| LPDDR MR5 / JEP166 | https://store.accuristech.com/standards/jedec-jep166e?product_id=2569215 and https://blog.armsom.org/articles/037-rockchip-ddr/ | Generation-specific low-power DRAM manufacturer identifiers | JEDEC JEP166E is normative; public secondary table is used as a cross-reference and may be incomplete. |
+| eMMC CID MID | https://github.com/CTCaer/hekate/blob/45cd81ed08e30a26ba380958c7e20b55c342834b/nyx/nyx_gui/frontend/gui_info.c | eMMC CID manufacturer field and known mappings | Hekate GPL-2.0; unofficial IDs remain labelled. Micron CID datasheet independently confirms MID 0x13. |
+| Coreboot DRAM topology | https://github.com/coreboot/coreboot/blob/99ba9d7525c8a18d6b46cf4370467cf249039d47/src/commonlib/bsd/include/commonlib/bsd/mem_chip_info.h | MR5/MR6/MR7/MR8 and LPDDR5 serial-register field model | BSD-3-Clause (SPDX in source); facts/schema meanings are attributed. |
