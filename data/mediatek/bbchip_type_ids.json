@@ -1,0 +1,529 @@
+{
+  "schema_version": 1,
+  "title": "SP Flash Tool BBCHIP_TYPE identifiers",
+  "description": "Legacy chip-name enumeration used internally by SP Flash Tool source. These numeric values are tool-specific BBCHIP_TYPE IDs, not MediaTek BootROM/Preloader HW Codes and not DA Codes.",
+  "source": {
+    "repository": "https://github.com/cuu/SP-Flash-Tool-src",
+    "file": "BootRom/mtk_mcu.h",
+    "url": "https://github.com/cuu/SP-Flash-Tool-src/blob/master/BootRom/mtk_mcu.h",
+    "retrieved_on": "2026-11-07",
+    "source_note": "The source file includes a MediaTek copyright/confidentiality notice. This repository records factual identifier names and enum values with attribution; it does not copy source implementation code."
+  },
+  "namespace": "SP_FLASH_TOOL_BBCHIP_TYPE",
+  "record_count": 83,
+  "unique_numeric_ids": 82,
+  "records": [
+    {
+      "symbol": "MT6205",
+      "value": 0,
+      "alias_of": null,
+      "id_hex": "0x00"
+    },
+    {
+      "symbol": "MT6205B",
+      "value": 1,
+      "alias_of": null,
+      "id_hex": "0x01"
+    },
+    {
+      "symbol": "MT6218",
+      "value": 2,
+      "alias_of": null,
+      "id_hex": "0x02"
+    },
+    {
+      "symbol": "MT6218B",
+      "value": 4,
+      "alias_of": null,
+      "id_hex": "0x04"
+    },
+    {
+      "symbol": "MT6219",
+      "value": 5,
+      "alias_of": null,
+      "id_hex": "0x05"
+    },
+    {
+      "symbol": "MT6217",
+      "value": 6,
+      "alias_of": null,
+      "id_hex": "0x06"
+    },
+    {
+      "symbol": "MT6228",
+      "value": 7,
+      "alias_of": null,
+      "id_hex": "0x07"
+    },
+    {
+      "symbol": "MT6227",
+      "value": 8,
+      "alias_of": null,
+      "id_hex": "0x08"
+    },
+    {
+      "symbol": "MT6229",
+      "value": 9,
+      "alias_of": null,
+      "id_hex": "0x09"
+    },
+    {
+      "symbol": "MT6226",
+      "value": 10,
+      "alias_of": null,
+      "id_hex": "0x0A"
+    },
+    {
+      "symbol": "MT6226M",
+      "value": 11,
+      "alias_of": null,
+      "id_hex": "0x0B"
+    },
+    {
+      "symbol": "MT6230",
+      "value": 12,
+      "alias_of": null,
+      "id_hex": "0x0C"
+    },
+    {
+      "symbol": "MT6225",
+      "value": 13,
+      "alias_of": null,
+      "id_hex": "0x0D"
+    },
+    {
+      "symbol": "MT6268T",
+      "value": 14,
+      "alias_of": null,
+      "id_hex": "0x0E"
+    },
+    {
+      "symbol": "MT6223",
+      "value": 15,
+      "alias_of": null,
+      "id_hex": "0x0F"
+    },
+    {
+      "symbol": "MT6227D",
+      "value": 16,
+      "alias_of": null,
+      "id_hex": "0x10"
+    },
+    {
+      "symbol": "MT6226D",
+      "value": 17,
+      "alias_of": null,
+      "id_hex": "0x11"
+    },
+    {
+      "symbol": "MT6223P",
+      "value": 18,
+      "alias_of": null,
+      "id_hex": "0x12"
+    },
+    {
+      "symbol": "MT6238",
+      "value": 19,
+      "alias_of": null,
+      "id_hex": "0x13"
+    },
+    {
+      "symbol": "MT6235",
+      "value": 20,
+      "alias_of": null,
+      "id_hex": "0x14"
+    },
+    {
+      "symbol": "MT6235B",
+      "value": 21,
+      "alias_of": null,
+      "id_hex": "0x15"
+    },
+    {
+      "symbol": "TK6516_MD",
+      "value": 22,
+      "alias_of": null,
+      "id_hex": "0x16"
+    },
+    {
+      "symbol": "TK6516_AP",
+      "value": 23,
+      "alias_of": null,
+      "id_hex": "0x17"
+    },
+    {
+      "symbol": "MT6268A",
+      "value": 24,
+      "alias_of": null,
+      "id_hex": "0x18"
+    },
+    {
+      "symbol": "MT6516_MD",
+      "value": 25,
+      "alias_of": null,
+      "id_hex": "0x19"
+    },
+    {
+      "symbol": "MT6516_AP",
+      "value": 26,
+      "alias_of": null,
+      "id_hex": "0x1A"
+    },
+    {
+      "symbol": "MT6239",
+      "value": 27,
+      "alias_of": null,
+      "id_hex": "0x1B"
+    },
+    {
+      "symbol": "MT6251T",
+      "value": 28,
+      "alias_of": null,
+      "id_hex": "0x1C"
+    },
+    {
+      "symbol": "MT6253T",
+      "value": 29,
+      "alias_of": null,
+      "id_hex": "0x1D"
+    },
+    {
+      "symbol": "MT6268B",
+      "value": 30,
+      "alias_of": null,
+      "id_hex": "0x1E"
+    },
+    {
+      "symbol": "MT6253",
+      "value": 32,
+      "alias_of": null,
+      "id_hex": "0x20"
+    },
+    {
+      "symbol": "MT6253D",
+      "value": 33,
+      "alias_of": null,
+      "id_hex": "0x21"
+    },
+    {
+      "symbol": "MT6236",
+      "value": 34,
+      "alias_of": null,
+      "id_hex": "0x22"
+    },
+    {
+      "symbol": "MT6270A",
+      "value": 35,
+      "alias_of": null,
+      "id_hex": "0x23"
+    },
+    {
+      "symbol": "MT6276",
+      "value": 128,
+      "alias_of": null,
+      "id_hex": "0x80"
+    },
+    {
+      "symbol": "MT6251",
+      "value": 129,
+      "alias_of": null,
+      "id_hex": "0x81"
+    },
+    {
+      "symbol": "MT6255",
+      "value": 130,
+      "alias_of": null,
+      "id_hex": "0x82"
+    },
+    {
+      "symbol": "MT6573",
+      "value": 131,
+      "alias_of": null,
+      "id_hex": "0x83"
+    },
+    {
+      "symbol": "MT6575",
+      "value": 132,
+      "alias_of": null,
+      "id_hex": "0x84"
+    },
+    {
+      "symbol": "MT6577",
+      "value": 133,
+      "alias_of": null,
+      "id_hex": "0x85"
+    },
+    {
+      "symbol": "MT6589",
+      "value": 134,
+      "alias_of": null,
+      "id_hex": "0x86"
+    },
+    {
+      "symbol": "MT6582",
+      "value": 135,
+      "alias_of": null,
+      "id_hex": "0x87"
+    },
+    {
+      "symbol": "MT6572",
+      "value": 136,
+      "alias_of": null,
+      "id_hex": "0x88"
+    },
+    {
+      "symbol": "MT8135",
+      "value": 137,
+      "alias_of": null,
+      "id_hex": "0x89"
+    },
+    {
+      "symbol": "MT6592",
+      "value": 138,
+      "alias_of": null,
+      "id_hex": "0x8A"
+    },
+    {
+      "symbol": "MT6571",
+      "value": 139,
+      "alias_of": null,
+      "id_hex": "0x8B"
+    },
+    {
+      "symbol": "MT6595",
+      "value": 140,
+      "alias_of": null,
+      "id_hex": "0x8C"
+    },
+    {
+      "symbol": "MT8127",
+      "value": 141,
+      "alias_of": null,
+      "id_hex": "0x8D"
+    },
+    {
+      "symbol": "MT8173",
+      "value": 142,
+      "alias_of": null,
+      "id_hex": "0x8E"
+    },
+    {
+      "symbol": "MT6752",
+      "value": 143,
+      "alias_of": null,
+      "id_hex": "0x8F"
+    },
+    {
+      "symbol": "MT2601",
+      "value": 144,
+      "alias_of": null,
+      "id_hex": "0x90"
+    },
+    {
+      "symbol": "MT8590",
+      "value": 145,
+      "alias_of": null,
+      "id_hex": "0x91"
+    },
+    {
+      "symbol": "MT7623",
+      "value": 146,
+      "alias_of": null,
+      "id_hex": "0x92"
+    },
+    {
+      "symbol": "MT7683",
+      "value": 147,
+      "alias_of": null,
+      "id_hex": "0x93"
+    },
+    {
+      "symbol": "MT8591",
+      "value": 148,
+      "alias_of": null,
+      "id_hex": "0x94"
+    },
+    {
+      "symbol": "MT8592",
+      "value": 149,
+      "alias_of": null,
+      "id_hex": "0x95"
+    },
+    {
+      "symbol": "MT8531",
+      "value": 150,
+      "alias_of": null,
+      "id_hex": "0x96"
+    },
+    {
+      "symbol": "MT7863",
+      "value": 151,
+      "alias_of": null,
+      "id_hex": "0x97"
+    },
+    {
+      "symbol": "MT2701",
+      "value": 152,
+      "alias_of": null,
+      "id_hex": "0x98"
+    },
+    {
+      "symbol": "MT8521",
+      "value": 153,
+      "alias_of": null,
+      "id_hex": "0x99"
+    },
+    {
+      "symbol": "MT6795",
+      "value": 154,
+      "alias_of": null,
+      "id_hex": "0x9A"
+    },
+    {
+      "symbol": "MT6574",
+      "value": 135,
+      "alias_of": "MT6582",
+      "id_hex": "0x87"
+    },
+    {
+      "symbol": "MT6735",
+      "value": 155,
+      "alias_of": null,
+      "id_hex": "0x9B"
+    },
+    {
+      "symbol": "MT6580",
+      "value": 156,
+      "alias_of": null,
+      "id_hex": "0x9C"
+    },
+    {
+      "symbol": "MT6735M",
+      "value": 157,
+      "alias_of": null,
+      "id_hex": "0x9D"
+    },
+    {
+      "symbol": "MT6753",
+      "value": 158,
+      "alias_of": null,
+      "id_hex": "0x9E"
+    },
+    {
+      "symbol": "MT6737T",
+      "value": 159,
+      "alias_of": null,
+      "id_hex": "0x9F"
+    },
+    {
+      "symbol": "MT6737M",
+      "value": 160,
+      "alias_of": null,
+      "id_hex": "0xA0"
+    },
+    {
+      "symbol": "MT8163",
+      "value": 161,
+      "alias_of": null,
+      "id_hex": "0xA1"
+    },
+    {
+      "symbol": "MT6797",
+      "value": 181,
+      "alias_of": null,
+      "id_hex": "0xB5"
+    },
+    {
+      "symbol": "MT6799",
+      "value": 182,
+      "alias_of": null,
+      "id_hex": "0xB6"
+    },
+    {
+      "symbol": "MT0571",
+      "value": 183,
+      "alias_of": null,
+      "id_hex": "0xB7"
+    },
+    {
+      "symbol": "MT6750",
+      "value": 184,
+      "alias_of": null,
+      "id_hex": "0xB8"
+    },
+    {
+      "symbol": "ELBRUS",
+      "value": 185,
+      "alias_of": null,
+      "id_hex": "0xB9"
+    },
+    {
+      "symbol": "MT6757",
+      "value": 186,
+      "alias_of": null,
+      "id_hex": "0xBA"
+    },
+    {
+      "symbol": "MT6759",
+      "value": 188,
+      "alias_of": null,
+      "id_hex": "0xBC"
+    },
+    {
+      "symbol": "MT8167",
+      "value": 189,
+      "alias_of": null,
+      "id_hex": "0xBD"
+    },
+    {
+      "symbol": "MT6570",
+      "value": 190,
+      "alias_of": null,
+      "id_hex": "0xBE"
+    },
+    {
+      "symbol": "MT6763",
+      "value": 191,
+      "alias_of": null,
+      "id_hex": "0xBF"
+    },
+    {
+      "symbol": "MT6758",
+      "value": 192,
+      "alias_of": null,
+      "id_hex": "0xC0"
+    },
+    {
+      "symbol": "MT6739",
+      "value": 193,
+      "alias_of": null,
+      "id_hex": "0xC1"
+    },
+    {
+      "symbol": "MT8695",
+      "value": 194,
+      "alias_of": null,
+      "id_hex": "0xC2"
+    },
+    {
+      "symbol": "MT0713",
+      "value": 195,
+      "alias_of": null,
+      "id_hex": "0xC3"
+    }
+  ],
+  "reserved_values": [
+    {
+      "symbol": "BBCHIP_TYPE_END",
+      "value": 196
+    },
+    {
+      "symbol": "AUTO_DETECT_BBCHIP",
+      "value": 254
+    },
+    {
+      "symbol": "UNKNOWN_BBCHIP_TYPE",
+      "value": 255
+    }
+  ]
+}

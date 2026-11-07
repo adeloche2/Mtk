@@ -47,3 +47,5 @@ This page lists the structured dictionaries currently committed.
 
 | MediaTek HW Code database | `data/mediatek/soc_hw_codes.json` | 93 merged unique HW-code values from acon + mtkclient, with SoC aliases, marketing family and DA-code crosswalk. |
 | Raw mtkclient HW-code observations | `data/mediatek/hw_code_observations.json` | 89 exact hwconfig keys from mtkclient, preserving names, descriptions, DA mode and DA code. |
+
+| Legacy SP Flash Tool BBCHIP_TYPE IDs | `data/mediatek/bbchip_type_ids.json` | 83 legacy chip/platform names in a separate tool-specific enum namespace; explicitly not BootROM HW Codes. |

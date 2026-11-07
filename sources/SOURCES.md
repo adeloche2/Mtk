@@ -22,3 +22,5 @@ Do not combine records from different upstream snapshots without preserving per-
 
 | MediaTek SoC HW-code and DA-code mapping | https://github.com/shomykohai/acon/tree/e1965e02f4a8e54d9fad3799da67fc7a2459d389 | Explicit SoC enum, HW code, silicon aliases, marketing family, and DA-code crosswalk | Source commit pinned in `data/mediatek/soc_hw_codes.json`; AGPL project source. |
 | MediaTek platform hwconfig | https://github.com/bkerler/mtkclient/blob/118a000a83ea31c4f427fe5225abfe964546e05e/mtkclient/config/brom_config.py | 89 configured HW-code keys, names, DA codes/modes, including older modem/IoT and tablet platforms | GPL-3.0 project source; facts attributed and commit pinned. |
+
+| Legacy MediaTek BBCHIP_TYPE names | https://github.com/cuu/SP-Flash-Tool-src/blob/master/BootRom/mtk_mcu.h | Historical SP Flash Tool chip-name enum and tool-specific numeric IDs | The source file carries a MediaTek copyright/confidentiality notice; only factual names/values are recorded with attribution, not implementation code. Never interpret these values as raw HW Codes. |

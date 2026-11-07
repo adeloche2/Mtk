@@ -53,3 +53,8 @@ The LPDDR dictionaries now separate generation-specific MR5 manufacturer IDs and
 ## MediaTek HW Code expansion (2026-11-07)
 
 The MediaTek HW Code database now contains 93 unique HW-code values merged from 45 explicit acon SoC mappings and 89 mtkclient hwconfig entries. It preserves separate HW Code and DA Code fields, silicon aliases, marketing family, source revision, and conflicts. Additional mtkclient-only mappings include legacy MT62xx/MT65xx, IoT/modem, tablet/TV and newer platforms.
+
+
+## Legacy MediaTek chip-name namespace
+
+Added `data/mediatek/bbchip_type_ids.json`: 83 chip/platform symbols from the SP Flash Tool `BBCHIP_TYPE` enum, with 82 distinct numeric values due to an explicit alias. These IDs are tool-internal enum values and are intentionally kept separate from BootROM/Preloader HW Codes and DA Codes.
