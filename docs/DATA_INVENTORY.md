@@ -33,3 +33,13 @@ Penumbra provides storage-type enums and device-reported eMMC/UFS structures. Th
 - DRAM generation is not a timing profile.
 - EMI configuration is platform/board-specific; never transplant timings based only on a similar chip name.
 - Preserve source, revision, raw identifier, units, and whether a value is observed, reported, or inferred.
+
+
+## Commercial part-number catalogues (added 2026-11-07)
+
+- DRAM part-number index: 3,169 records across 13 vendors. Capacity and technology remain null in the bulk index until verified from vendor-specific part-number decoding documentation.
+- Managed NAND / eMMC / UFS / MCP index: 891 records across 13 vendors. The index is intentionally not split into eMMC/UFS where source metadata does not establish the interface.
+- LPDDR MR5 manufacturer dictionary: 25 LPDDR2/3 codes, 12 LPDDR4 codes, 8 LPDDR5 codes, with per-generation tables.
+- eMMC CID MID table: official mappings separated from unofficial/community mappings.
+- Verified product subset: 33 individual DRAM, eMMC, UFS and raw NAND part numbers with sourced capacity/interface data.
+- Raw NAND product examples: 24 exact part numbers; capacity units distinguish per-die density (Gb) from packaged capacity (GB).
