@@ -32,6 +32,8 @@ A missing entry does not mean a component is unsupported. A match by a short ide
 
 ## Current inventory
 
+The current repository includes source-attributed DRAM and managed-flash part-number indexes, LPDDR MR5 manufacturer IDs, eMMC CID manufacturer IDs, and a separately curated verified-product subset. See [docs/DICTIONARY_CATALOG.md](docs/DICTIONARY_CATALOG.md) and [sources/PART_NUMBER_DATASETS.md](sources/PART_NUMBER_DATASETS.md).
+
 See [docs/DATA_INVENTORY.md](docs/DATA_INVENTORY.md) for the verified source inventory and coverage limitations.
 
 ## Licensing
