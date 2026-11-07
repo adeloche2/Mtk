@@ -1,0 +1,215 @@
+{
+  "schema_version": 1,
+  "description": "Individually verified examples of commercial memory part numbers with sourced capacity and interface data. This is an evidence-backed subset, not a complete market catalogue.",
+  "records": [
+    {
+      "vendor": "micron",
+      "part_number": "MT62F512M32D2DR-031 WT:B",
+      "technology": "LPDDR5",
+      "capacity": 16,
+      "capacity_unit": "Gb",
+      "data_rate_mt_s": 6400,
+      "source": "https://www.micron.com/products/memory/dram-components/lpddr5",
+      "evidence": "Micron product listing identifies 16Gb component density; exact PN is listed in product table."
+    },
+    {
+      "vendor": "micron",
+      "part_number": "MT62F512M64D4EK-031 AIT:B",
+      "technology": "LPDDR5",
+      "capacity": 32,
+      "capacity_unit": "Gb",
+      "io_width": "x64",
+      "die_count": 4,
+      "data_rate_mt_s": 6400,
+      "source": "https://www.micron.com/products/memory/dram-components/lpddr5",
+      "evidence": "Micron LPDDR5 ordering code guide; 512M64 organisation, D4 die count."
+    },
+    {
+      "vendor": "micron",
+      "part_number": "MT62F1G64D8EK-031 AIT:B",
+      "technology": "LPDDR5",
+      "capacity": 64,
+      "capacity_unit": "Gb",
+      "io_width": "x64",
+      "die_count": 8,
+      "data_rate_mt_s": 6400,
+      "source": "https://www.micron.com/products/memory/dram-components/lpddr5",
+      "evidence": "Micron LPDDR5 ordering code guide; 1G64 organisation, D8 die count."
+    },
+    {
+      "vendor": "micron",
+      "part_number": "MTFC32GBCAQTC-AIT",
+      "technology": "eMMC",
+      "capacity": 32,
+      "capacity_unit": "GB",
+      "source": "https://www.micron.com/products/storage/managed-nand/emmc/part-catalog",
+      "evidence": "Micron automotive eMMC ordering information."
+    },
+    {
+      "vendor": "micron",
+      "part_number": "MTFC128GBCAQTC-AAT",
+      "technology": "eMMC",
+      "capacity": 128,
+      "capacity_unit": "GB",
+      "source": "https://www.micron.com/products/storage/managed-nand/emmc/part-catalog",
+      "evidence": "Micron automotive eMMC ordering information."
+    },
+    {
+      "vendor": "micron",
+      "part_number": "MTFC256GBCAQTC-AAT",
+      "technology": "eMMC",
+      "capacity": 256,
+      "capacity_unit": "GB",
+      "source": "https://www.micron.com/products/storage/managed-nand/emmc/part-catalog",
+      "evidence": "Micron automotive eMMC ordering information."
+    },
+    {
+      "vendor": "micron",
+      "part_number": "MTFC32GASAONS-IT",
+      "technology": "UFS",
+      "capacity": 32,
+      "capacity_unit": "GB",
+      "ufs_version": "2.1",
+      "source": "https://datasheet.lcsc.com/lcsc/2411201017_Micron-Tech-MTFC256GASAONS-IT_C5128485.pdf",
+      "evidence": "Micron UFS 2.1 datasheet ordering table lists 32/64/128/256GB variants."
+    },
+    {
+      "vendor": "micron",
+      "part_number": "MTFC64GASAONS-IT",
+      "technology": "UFS",
+      "capacity": 64,
+      "capacity_unit": "GB",
+      "ufs_version": "2.1",
+      "source": "https://datasheet.lcsc.com/lcsc/2411201017_Micron-Tech-MTFC256GASAONS-IT_C5128485.pdf",
+      "evidence": "Micron UFS 2.1 datasheet ordering table lists 32/64/128/256GB variants."
+    },
+    {
+      "vendor": "micron",
+      "part_number": "MTFC128GASAONS-IT",
+      "technology": "UFS",
+      "capacity": 128,
+      "capacity_unit": "GB",
+      "ufs_version": "2.1",
+      "source": "https://datasheet.lcsc.com/lcsc/2411201017_Micron-Tech-MTFC256GASAONS-IT_C5128485.pdf",
+      "evidence": "Micron UFS 2.1 datasheet ordering table lists 32/64/128/256GB variants."
+    },
+    {
+      "vendor": "micron",
+      "part_number": "MTFC256GASAONS-IT",
+      "technology": "UFS",
+      "capacity": 256,
+      "capacity_unit": "GB",
+      "ufs_version": "2.1",
+      "source": "https://datasheet.lcsc.com/lcsc/2411201017_Micron-Tech-MTFC256GASAONS-IT_C5128485.pdf",
+      "evidence": "Micron UFS 2.1 datasheet ordering table lists 32/64/128/256GB variants."
+    },
+    {
+      "vendor": "micron",
+      "part_number": "MTFC512GAXATAM-WT",
+      "technology": "UFS",
+      "capacity": 512,
+      "capacity_unit": "GB",
+      "source": "https://www.micron.com/products/storage/managed-nand/universal-flash-storage/part-catalog",
+      "evidence": "Micron UFS product family catalog."
+    },
+    {
+      "vendor": "micron",
+      "part_number": "MTFC1TBGBBAF-WT",
+      "technology": "UFS",
+      "capacity": 1024,
+      "capacity_unit": "GB",
+      "source": "https://www.micron.com/products/storage/managed-nand/universal-flash-storage/part-catalog/part-detail/mtfc1tbgbbaf-wt",
+      "evidence": "Micron product catalog and distributor cross-reference identify 1TB UFS."
+    },
+    {
+      "vendor": "samsung",
+      "part_number": "KLUEG8UHDB-C2E1",
+      "technology": "UFS",
+      "capacity": 256,
+      "capacity_unit": "GB",
+      "ufs_version": "3.1",
+      "source": "https://semiconductor.samsung.com/jp/estorage/ufs/ufs-3-1/klueg8uhdb-c2e1/",
+      "evidence": "Samsung official product page."
+    },
+    {
+      "vendor": "samsung",
+      "part_number": "KLUEG8U1YB-B0CP",
+      "technology": "UFS",
+      "capacity": 256,
+      "capacity_unit": "GB",
+      "ufs_version": "2.1",
+      "source": "https://semiconductor.samsung.com/estorage/ufs/ufs-2-1/klueg8u1yb-b0cp/",
+      "evidence": "Samsung official product page."
+    },
+    {
+      "vendor": "samsung",
+      "part_number": "KLUFG8RHDA-B2D1",
+      "technology": "UFS",
+      "capacity": 512,
+      "capacity_unit": "GB",
+      "ufs_version": "3.0",
+      "source": "https://semiconductor.samsung.com/estorage/ufs/ufs-3-0/klufg8rhda-b2d1/",
+      "evidence": "Samsung official product page."
+    },
+    {
+      "vendor": "samsung",
+      "part_number": "KLUGGAR1FA-B2C1",
+      "technology": "UFS",
+      "capacity": 1024,
+      "capacity_unit": "GB",
+      "ufs_version": "2.1",
+      "source": "https://semiconductor.samsung.com/jp/estorage/ufs/ufs-2-1/kluggar1fa-b2c1/",
+      "evidence": "Samsung official product page."
+    },
+    {
+      "vendor": "samsung",
+      "part_number": "KLUGGARHUF-F0HQ",
+      "technology": "UFS",
+      "capacity": 1024,
+      "capacity_unit": "GB",
+      "ufs_version": "4.1",
+      "source": "https://semiconductor.samsung.com/emea/estorage/ufs/ufs-4-1/kluggarhuf-f0hq/",
+      "evidence": "Samsung official product page."
+    },
+    {
+      "vendor": "skhynix",
+      "part_number": "HN8T05DEHKX073",
+      "technology": "UFS",
+      "capacity": 128,
+      "capacity_unit": "GB",
+      "ufs_version": "3.1",
+      "source": "https://www.uttc.com.tw/wp-content/uploads/2025/12/SK-hynix-UFS3.1-3D-V7-Datasheet-128GB-1TB-V1.1.pdf",
+      "evidence": "SK hynix UFS 3.1 datasheet ordering table."
+    },
+    {
+      "vendor": "skhynix",
+      "part_number": "HN8T15DEHKX075",
+      "technology": "UFS",
+      "capacity": 256,
+      "capacity_unit": "GB",
+      "ufs_version": "3.1",
+      "source": "https://www.uttc.com.tw/wp-content/uploads/2025/12/SK-hynix-UFS3.1-3D-V7-Datasheet-128GB-1TB-V1.1.pdf",
+      "evidence": "SK hynix UFS 3.1 datasheet ordering table."
+    },
+    {
+      "vendor": "skhynix",
+      "part_number": "HN8T25DEHKX077",
+      "technology": "UFS",
+      "capacity": 512,
+      "capacity_unit": "GB",
+      "ufs_version": "3.1",
+      "source": "https://www.uttc.com.tw/wp-content/uploads/2025/12/SK-hynix-UFS3.1-3D-V7-Datasheet-128GB-1TB-V1.1.pdf",
+      "evidence": "SK hynix UFS 3.1 datasheet ordering table."
+    },
+    {
+      "vendor": "skhynix",
+      "part_number": "HN8T35DZHKX079",
+      "technology": "UFS",
+      "capacity": 1024,
+      "capacity_unit": "GB",
+      "ufs_version": "3.1",
+      "source": "https://www.uttc.com.tw/wp-content/uploads/2025/12/SK-hynix-UFS3.1-3D-V7-Datasheet-128GB-1TB-V1.1.pdf",
+      "evidence": "SK hynix UFS 3.1 datasheet ordering table."
+    }
+  ]
+}

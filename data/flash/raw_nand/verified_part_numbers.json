@@ -1,0 +1,270 @@
+{
+  "schema_version": 1,
+  "description": "Verified raw NAND part-number examples with capacity scope explicitly distinguished between die/device density and packaged capacity.",
+  "records": [
+    {
+      "vendor": "Winbond",
+      "part_number": "W29N01HV",
+      "technology": "raw_nand",
+      "capacity": 1,
+      "capacity_unit": "Gbit",
+      "flash_id": "0xEF F1 00 95 00",
+      "source": "https://github.com/iTXTech/fdnext/blob/15e2dcc75aa5efd80223f2889e210e889c9fa196/docs/pn_code/winbond_nand.md",
+      "capacity_scope": "device_density",
+      "confidence": "source_documented"
+    },
+    {
+      "vendor": "Winbond",
+      "part_number": "W29N01HZ",
+      "technology": "raw_nand",
+      "capacity": 1,
+      "capacity_unit": "Gbit",
+      "flash_id": "0xEF A1 00 95 00",
+      "source": "https://github.com/iTXTech/fdnext/blob/15e2dcc75aa5efd80223f2889e210e889c9fa196/docs/pn_code/winbond_nand.md",
+      "capacity_scope": "device_density",
+      "confidence": "source_documented"
+    },
+    {
+      "vendor": "Winbond",
+      "part_number": "W29N01HW",
+      "technology": "raw_nand",
+      "capacity": 1,
+      "capacity_unit": "Gbit",
+      "flash_id": "0xEF B1 00 D5 00",
+      "source": "https://github.com/iTXTech/fdnext/blob/15e2dcc75aa5efd80223f2889e210e889c9fa196/docs/pn_code/winbond_nand.md",
+      "capacity_scope": "device_density",
+      "confidence": "source_documented"
+    },
+    {
+      "vendor": "Winbond",
+      "part_number": "W29N02GV",
+      "technology": "raw_nand",
+      "capacity": 2,
+      "capacity_unit": "Gbit",
+      "flash_id": "0xEF DA 90 95 04",
+      "source": "https://github.com/iTXTech/fdnext/blob/15e2dcc75aa5efd80223f2889e210e889c9fa196/docs/pn_code/winbond_nand.md",
+      "capacity_scope": "device_density",
+      "confidence": "source_documented"
+    },
+    {
+      "vendor": "Winbond",
+      "part_number": "W29N02GZ",
+      "technology": "raw_nand",
+      "capacity": 2,
+      "capacity_unit": "Gbit",
+      "flash_id": "0xEF AA 90 15 04",
+      "source": "https://github.com/iTXTech/fdnext/blob/15e2dcc75aa5efd80223f2889e210e889c9fa196/docs/pn_code/winbond_nand.md",
+      "capacity_scope": "device_density",
+      "confidence": "source_documented"
+    },
+    {
+      "vendor": "Winbond",
+      "part_number": "W29N02GW",
+      "technology": "raw_nand",
+      "capacity": 2,
+      "capacity_unit": "Gbit",
+      "flash_id": "0xEF BA 90 55 04",
+      "source": "https://github.com/iTXTech/fdnext/blob/15e2dcc75aa5efd80223f2889e210e889c9fa196/docs/pn_code/winbond_nand.md",
+      "capacity_scope": "device_density",
+      "confidence": "source_documented"
+    },
+    {
+      "vendor": "Winbond",
+      "part_number": "W29N04GV",
+      "technology": "raw_nand",
+      "capacity": 4,
+      "capacity_unit": "Gbit",
+      "flash_id": "0xEF DC 90 95 54",
+      "source": "https://github.com/iTXTech/fdnext/blob/15e2dcc75aa5efd80223f2889e210e889c9fa196/docs/pn_code/winbond_nand.md",
+      "capacity_scope": "device_density",
+      "confidence": "source_documented"
+    },
+    {
+      "vendor": "Winbond",
+      "part_number": "W29N04GZ",
+      "technology": "raw_nand",
+      "capacity": 4,
+      "capacity_unit": "Gbit",
+      "flash_id": "0xEF AC 90 15 54",
+      "source": "https://github.com/iTXTech/fdnext/blob/15e2dcc75aa5efd80223f2889e210e889c9fa196/docs/pn_code/winbond_nand.md",
+      "capacity_scope": "device_density",
+      "confidence": "source_documented"
+    },
+    {
+      "vendor": "Winbond",
+      "part_number": "W29N04GW",
+      "technology": "raw_nand",
+      "capacity": 4,
+      "capacity_unit": "Gbit",
+      "flash_id": "0xEF BC 90 55 54",
+      "source": "https://github.com/iTXTech/fdnext/blob/15e2dcc75aa5efd80223f2889e210e889c9fa196/docs/pn_code/winbond_nand.md",
+      "capacity_scope": "device_density",
+      "confidence": "source_documented"
+    },
+    {
+      "vendor": "Winbond",
+      "part_number": "W29N08GV",
+      "technology": "raw_nand",
+      "capacity": 8,
+      "capacity_unit": "Gbit",
+      "flash_id": "0xEF D3 91 95 58",
+      "source": "https://github.com/iTXTech/fdnext/blob/15e2dcc75aa5efd80223f2889e210e889c9fa196/docs/pn_code/winbond_nand.md",
+      "capacity_scope": "device_density",
+      "confidence": "source_documented"
+    },
+    {
+      "vendor": "Winbond",
+      "part_number": "W29N08GZ",
+      "technology": "raw_nand",
+      "capacity": 8,
+      "capacity_unit": "Gbit",
+      "flash_id": "0xEF A3 91 15 58",
+      "source": "https://github.com/iTXTech/fdnext/blob/15e2dcc75aa5efd80223f2889e210e889c9fa196/docs/pn_code/winbond_nand.md",
+      "capacity_scope": "device_density",
+      "confidence": "source_documented"
+    },
+    {
+      "vendor": "Winbond",
+      "part_number": "W29N08GW",
+      "technology": "raw_nand",
+      "capacity": 8,
+      "capacity_unit": "Gbit",
+      "flash_id": "0xEF B3 91 55 58",
+      "source": "https://github.com/iTXTech/fdnext/blob/15e2dcc75aa5efd80223f2889e210e889c9fa196/docs/pn_code/winbond_nand.md",
+      "capacity_scope": "device_density",
+      "confidence": "source_documented"
+    },
+    {
+      "vendor": "Samsung",
+      "part_number": "K9F1G08Q0A",
+      "technology": "raw_nand",
+      "capacity": 1,
+      "capacity_unit": "Gbit",
+      "flash_id": "0xEC A1 00 15",
+      "source": "https://github.com/iTXTech/fdnext/blob/15e2dcc75aa5efd80223f2889e210e889c9fa196/docs/pn_code/samsung_nand.md",
+      "capacity_scope": "device_density",
+      "confidence": "source_documented"
+    },
+    {
+      "vendor": "Samsung",
+      "part_number": "K9F2G08U0D",
+      "technology": "raw_nand",
+      "capacity": 2,
+      "capacity_unit": "Gbit",
+      "flash_id": "0xEC DA 10 95 46",
+      "source": "https://github.com/iTXTech/fdnext/blob/15e2dcc75aa5efd80223f2889e210e889c9fa196/docs/pn_code/samsung_nand.md",
+      "capacity_scope": "device_density",
+      "confidence": "source_documented"
+    },
+    {
+      "vendor": "Samsung",
+      "part_number": "K9F4G08U0A",
+      "technology": "raw_nand",
+      "capacity": 4,
+      "capacity_unit": "Gbit",
+      "flash_id": "0xEC DC 10 95 54",
+      "source": "https://github.com/iTXTech/fdnext/blob/15e2dcc75aa5efd80223f2889e210e889c9fa196/docs/pn_code/samsung_nand.md",
+      "capacity_scope": "device_density",
+      "confidence": "source_documented"
+    },
+    {
+      "vendor": "Samsung",
+      "part_number": "K9F8G08U0M",
+      "technology": "raw_nand",
+      "capacity": 8,
+      "capacity_unit": "Gbit",
+      "flash_id": "0xEC D3 10 A6 64",
+      "source": "https://github.com/iTXTech/fdnext/blob/15e2dcc75aa5efd80223f2889e210e889c9fa196/docs/pn_code/samsung_nand.md",
+      "capacity_scope": "device_density",
+      "confidence": "source_documented"
+    },
+    {
+      "vendor": "Samsung",
+      "part_number": "K9G8G08U0A",
+      "technology": "raw_nand",
+      "capacity": 8,
+      "capacity_unit": "Gbit",
+      "flash_id": "0xEC D3 14 A5 64",
+      "source": "https://github.com/iTXTech/fdnext/blob/15e2dcc75aa5efd80223f2889e210e889c9fa196/docs/pn_code/samsung_nand.md",
+      "capacity_scope": "device_density",
+      "confidence": "source_documented"
+    },
+    {
+      "vendor": "Samsung",
+      "part_number": "K9GAG08U0M",
+      "technology": "raw_nand",
+      "capacity": 16,
+      "capacity_unit": "Gbit",
+      "flash_id": "0xEC D5 14 B6 74",
+      "source": "https://github.com/iTXTech/fdnext/blob/15e2dcc75aa5efd80223f2889e210e889c9fa196/docs/pn_code/samsung_nand.md",
+      "capacity_scope": "device_density",
+      "confidence": "source_documented"
+    },
+    {
+      "vendor": "SK hynix",
+      "part_number": "HY27UF081G2A",
+      "technology": "raw_nand",
+      "capacity": 1,
+      "capacity_unit": "Gbit",
+      "flash_id": null,
+      "source": "https://github.com/iTXTech/fdnext/blob/15e2dcc75aa5efd80223f2889e210e889c9fa196/docs/pn_code/skhynix_nand.md",
+      "capacity_scope": "device_density",
+      "confidence": "source_documented"
+    },
+    {
+      "vendor": "SK hynix",
+      "part_number": "H27U2G8F2C",
+      "technology": "raw_nand",
+      "capacity": 2,
+      "capacity_unit": "Gbit",
+      "flash_id": null,
+      "source": "https://github.com/iTXTech/fdnext/blob/15e2dcc75aa5efd80223f2889e210e889c9fa196/docs/pn_code/skhynix_nand.md",
+      "capacity_scope": "device_density",
+      "confidence": "source_documented"
+    },
+    {
+      "vendor": "SK hynix",
+      "part_number": "H27U4G8F2D",
+      "technology": "raw_nand",
+      "capacity": 4,
+      "capacity_unit": "Gbit",
+      "flash_id": null,
+      "source": "https://github.com/iTXTech/fdnext/blob/15e2dcc75aa5efd80223f2889e210e889c9fa196/docs/pn_code/skhynix_nand.md",
+      "capacity_scope": "device_density",
+      "confidence": "source_documented"
+    },
+    {
+      "vendor": "Kioxia",
+      "part_number": "TH58LKG9DA5BA4R",
+      "technology": "raw_nand",
+      "capacity": 64,
+      "capacity_unit": "GB",
+      "flash_id": null,
+      "source": "https://github.com/iTXTech/fdnext/blob/15e2dcc75aa5efd80223f2889e210e889c9fa196/docs/pn_code/kioxia_nand.md",
+      "capacity_scope": "package_capacity",
+      "confidence": "source_documented"
+    },
+    {
+      "vendor": "Kioxia",
+      "part_number": "TH58LKT0DA5BA8R",
+      "technology": "raw_nand",
+      "capacity": 128,
+      "capacity_unit": "GB",
+      "flash_id": null,
+      "source": "https://github.com/iTXTech/fdnext/blob/15e2dcc75aa5efd80223f2889e210e889c9fa196/docs/pn_code/kioxia_nand.md",
+      "capacity_scope": "package_capacity",
+      "confidence": "source_documented"
+    },
+    {
+      "vendor": "Kioxia",
+      "part_number": "TH58LKT1DA5BA8S",
+      "technology": "raw_nand",
+      "capacity": 256,
+      "capacity_unit": "GB",
+      "flash_id": null,
+      "source": "https://github.com/iTXTech/fdnext/blob/15e2dcc75aa5efd80223f2889e210e889c9fa196/docs/pn_code/kioxia_nand.md",
+      "capacity_scope": "package_capacity",
+      "confidence": "source_documented"
+    }
+  ]
+}

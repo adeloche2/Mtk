@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "description": "eMMC CID Manufacturer ID (MID) map. The eMMC CID MID is an 8-bit JEDEC-assigned value in CID[127:120].",
+  "source": "https://github.com/CTCaer/hekate/blob/45cd81ed08e30a26ba380958c7e20b55c342834b/nyx/nyx_gui/frontend/gui_info.c",
+  "fields": {
+    "cid_mid_bits": "[127:120]",
+    "width": 8,
+    "product_name_bits": "[103:56]",
+    "product_revision_bits": "[55:48]"
+  },
+  "entries": [
+    {
+      "mid": "0x11",
+      "manufacturer": "Toshiba / Kioxia",
+      "status": "official_in_he kate_source"
+    },
+    {
+      "mid": "0x13",
+      "manufacturer": "Micron Technology",
+      "status": "datasheet_confirmed",
+      "evidence": "Micron eMMC CID datasheet example"
+    },
+    {
+      "mid": "0x15",
+      "manufacturer": "Samsung",
+      "status": "official_in_he kate_source"
+    },
+    {
+      "mid": "0x45",
+      "manufacturer": "SanDisk",
+      "status": "unofficial_or_legacy_mapping",
+      "evidence": "Hekate comment marks unofficial"
+    },
+    {
+      "mid": "0x70",
+      "manufacturer": "Kingston",
+      "status": "community_mapping"
+    },
+    {
+      "mid": "0x89",
+      "manufacturer": "Silicon Motion",
+      "status": "unofficial_in_he kate_source"
+    },
+    {
+      "mid": "0x90",
+      "manufacturer": "SK hynix",
+      "status": "official_in_he kate_source"
+    },
+    {
+      "mid": "0x9B",
+      "manufacturer": "YMTC",
+      "status": "community_mapping"
+    },
+    {
+      "mid": "0xD6",
+      "manufacturer": "FORESEE",
+      "status": "community_mapping"
+    },
+    {
+      "mid": "0xFE",
+      "manufacturer": "Micron Technology",
+      "status": "community_mapping_alias"
+    }
+  ],
+  "notes": [
+    "Status labels preserve source quality; unofficial/community mappings are not elevated to JEDEC-confirmed allocations.",
+    "CID word order returned by a programmer may require normalization before decoding. Decode the register according to the transport's documented byte order.",
+    "The CID contains a six-character product name and revision; it is not a complete commercial part-number database."
+  ]
+}

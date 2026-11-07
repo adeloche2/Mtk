@@ -1,0 +1,203 @@
+{
+  "schema_version": 1,
+  "description": "LPDDR manufacturer identifiers as read from MR5. Values vary by LPDDR generation; do not apply one generation's table to another.",
+  "standard": "JEDEC JEP166E / JESD209 family",
+  "sources": [
+    "https://store.accuristech.com/standards/jedec-jep166e?product_id=2569215",
+    "https://blog.armsom.org/articles/037-rockchip-ddr/"
+  ],
+  "tables": {
+    "LPDDR2_LPDDR3": [
+      {
+        "mr5": "0x01",
+        "manufacturer": "Samsung"
+      },
+      {
+        "mr5": "0x02",
+        "manufacturer": "Qimonda"
+      },
+      {
+        "mr5": "0x03",
+        "manufacturer": "Elpida"
+      },
+      {
+        "mr5": "0x04",
+        "manufacturer": "Etron"
+      },
+      {
+        "mr5": "0x05",
+        "manufacturer": "Nanya"
+      },
+      {
+        "mr5": "0x06",
+        "manufacturer": "SK hynix"
+      },
+      {
+        "mr5": "0x07",
+        "manufacturer": "Mosel"
+      },
+      {
+        "mr5": "0x08",
+        "manufacturer": "Winbond"
+      },
+      {
+        "mr5": "0x09",
+        "manufacturer": "ESMT"
+      },
+      {
+        "mr5": "0x0a",
+        "manufacturer": "Zentel"
+      },
+      {
+        "mr5": "0x0b",
+        "manufacturer": "Spansion"
+      },
+      {
+        "mr5": "0x0c",
+        "manufacturer": "SST"
+      },
+      {
+        "mr5": "0x0d",
+        "manufacturer": "ZMOS"
+      },
+      {
+        "mr5": "0x0e",
+        "manufacturer": "Intel"
+      },
+      {
+        "mr5": "0x12",
+        "manufacturer": "Being Advanced Memory Corp"
+      },
+      {
+        "mr5": "0x1a",
+        "manufacturer": "Xi'an UniIC Semiconductors"
+      },
+      {
+        "mr5": "0x1b",
+        "manufacturer": "ISSI"
+      },
+      {
+        "mr5": "0x1c",
+        "manufacturer": "JSC"
+      },
+      {
+        "mr5": "0xaa",
+        "manufacturer": "Tezzaron"
+      },
+      {
+        "mr5": "0xc2",
+        "manufacturer": "Macronix"
+      },
+      {
+        "mr5": "0xf8",
+        "manufacturer": "Fidelix"
+      },
+      {
+        "mr5": "0xfc",
+        "manufacturer": "eveRAM"
+      },
+      {
+        "mr5": "0xfd",
+        "manufacturer": "AP Memory"
+      },
+      {
+        "mr5": "0xfe",
+        "manufacturer": "Numonyx"
+      },
+      {
+        "mr5": "0xff",
+        "manufacturer": "Micron"
+      }
+    ],
+    "LPDDR4": [
+      {
+        "mr5": "0x01",
+        "manufacturer": "Samsung"
+      },
+      {
+        "mr5": "0x05",
+        "manufacturer": "Nanya"
+      },
+      {
+        "mr5": "0x06",
+        "manufacturer": "SK hynix"
+      },
+      {
+        "mr5": "0x08",
+        "manufacturer": "Winbond"
+      },
+      {
+        "mr5": "0x09",
+        "manufacturer": "ESMT"
+      },
+      {
+        "mr5": "0x13",
+        "manufacturer": "CXMT"
+      },
+      {
+        "mr5": "0x1a",
+        "manufacturer": "Xi'an UniIC Semiconductors"
+      },
+      {
+        "mr5": "0x1c",
+        "manufacturer": "JSC"
+      },
+      {
+        "mr5": "0xf8",
+        "manufacturer": "Fidelix"
+      },
+      {
+        "mr5": "0xf9",
+        "manufacturer": "Ultra Memory"
+      },
+      {
+        "mr5": "0xfd",
+        "manufacturer": "AP Memory"
+      },
+      {
+        "mr5": "0xff",
+        "manufacturer": "Micron"
+      }
+    ],
+    "LPDDR5": [
+      {
+        "mr5": "0x01",
+        "manufacturer": "Samsung"
+      },
+      {
+        "mr5": "0x05",
+        "manufacturer": "Nanya"
+      },
+      {
+        "mr5": "0x06",
+        "manufacturer": "SK hynix"
+      },
+      {
+        "mr5": "0x08",
+        "manufacturer": "Winbond"
+      },
+      {
+        "mr5": "0x09",
+        "manufacturer": "ESMT"
+      },
+      {
+        "mr5": "0x13",
+        "manufacturer": "CXMT"
+      },
+      {
+        "mr5": "0xe5",
+        "manufacturer": "Dosilicon"
+      },
+      {
+        "mr5": "0xff",
+        "manufacturer": "Micron"
+      }
+    ]
+  },
+  "notes": [
+    "JEP166E is the JEDEC manufacturer identification standard for low-power memories; use the licensed current standard as the normative authority.",
+    "The public table used here is a secondary technical guide and may not reflect every current allocation.",
+    "DDR4/DDR5 conventional SPD manufacturer IDs are not the same field as LPDDR MR5; do not conflate them.",
+    "LPDDR MR5 identifies the wafer manufacturer and does not necessarily identify the package/brand printed on the package."
+  ]
+}
