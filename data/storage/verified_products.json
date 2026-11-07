@@ -210,6 +210,148 @@
       "ufs_version": "3.1",
       "source": "https://www.uttc.com.tw/wp-content/uploads/2025/12/SK-hynix-UFS3.1-3D-V7-Datasheet-128GB-1TB-V1.1.pdf",
       "evidence": "SK hynix UFS 3.1 datasheet ordering table."
+    },
+    {
+      "vendor": "samsung",
+      "part_number": "K4F6E304HB-MGCJ",
+      "technology": "LPDDR4",
+      "capacity": 16,
+      "capacity_unit": "Gb",
+      "io_width": "x32",
+      "package": "FBGA-200",
+      "data_rate_mt_s": 3733,
+      "source": "https://semiconductor.samsung.com/us/dram/lpddr/lpddr4/k4f6e304hb-mgcj/",
+      "evidence": "Samsung official product page."
+    },
+    {
+      "vendor": "samsung",
+      "part_number": "K4U6E3S4AA-MGCL",
+      "technology": "LPDDR4X",
+      "capacity": 16,
+      "capacity_unit": "Gb",
+      "io_width": "x32",
+      "package": "FBGA-200",
+      "data_rate_mt_s": 4266,
+      "source": "https://semiconductor.samsung.com/us/dram/lpddr/lpddr4x/k4u6e3s4aa-mgcl/",
+      "evidence": "Samsung official product page."
+    },
+    {
+      "vendor": "samsung",
+      "part_number": "K3LKBKB0BM-MGCP",
+      "technology": "LPDDR5",
+      "capacity": 32,
+      "capacity_unit": "Gb",
+      "io_width": "x32",
+      "package": "FBGA-315",
+      "data_rate_mt_s": 6400,
+      "source": "https://semiconductor.samsung.com/us/dram/lpddr/lpddr5/k3lkbkb0bm-mgcp/",
+      "evidence": "Samsung official product page."
+    },
+    {
+      "vendor": "skhynix",
+      "part_number": "H9HCNNN8KUMLHR-NME",
+      "technology": "LPDDR4",
+      "capacity": 8,
+      "capacity_unit": "Gb",
+      "io_width": "x16",
+      "package": "FBGA-200",
+      "data_rate_mt_s": 3733,
+      "source": "https://datasheet.lcsc.com/lcsc/2410121844_SK-HYNIX-H9HCNNN8KUMLHR-NME_C2912103.pdf",
+      "evidence": "SK hynix datasheet and distributor listing."
+    },
+    {
+      "vendor": "skhynix",
+      "part_number": "H9HCNNNCPUMLXR-NEE",
+      "technology": "LPDDR4",
+      "capacity": 32,
+      "capacity_unit": "Gb",
+      "package": "FBGA-200",
+      "data_rate_mt_s": 4266,
+      "source": "https://dl.xkwy2018.com/downloads/RK3588S/03_Product%20Line%20Branch_Tablet/02_Key%20Device%20Specifications/H9HCNNNCPUMLXR.pdf",
+      "evidence": "SK hynix datasheet."
+    },
+    {
+      "vendor": "skhynix",
+      "part_number": "H9HCNNNCPMMLXR-NEE",
+      "technology": "LPDDR4X",
+      "capacity": 32,
+      "capacity_unit": "Gb",
+      "package": "FBGA-200",
+      "data_rate_mt_s": 4266,
+      "source": "https://www.uttc.com.tw/wp-content/uploads/2025/12/Consumer_H9HCNNNCPMMLXR1.0-LPDDR4X-32Gb_1ynm.pdf",
+      "evidence": "SK hynix LPDDR4X datasheet."
+    },
+    {
+      "vendor": "cxmt",
+      "part_number": "CXDB4ABAM-MK",
+      "technology": "LPDDR4X",
+      "capacity": 16,
+      "capacity_unit": "Gb",
+      "io_width": "x32",
+      "package": "FBGA-200",
+      "data_rate_mt_s": 3733,
+      "source": "https://datasheet4u.com/pdf/1550200/CXDB5CCAM-MK.pdf",
+      "evidence": "CXMT LPDDR4X datasheet; paired family code table identifies 4=16Gb."
+    },
+    {
+      "vendor": "cxmt",
+      "part_number": "CXDB5CCAM-MK",
+      "technology": "LPDDR4X",
+      "capacity": 32,
+      "capacity_unit": "Gb",
+      "io_width": "x32",
+      "package": "FBGA-200",
+      "data_rate_mt_s": 3733,
+      "source": "https://datasheet4u.com/pdf/1550200/CXDB5CCAM-MK.pdf",
+      "evidence": "CXMT LPDDR4X datasheet."
+    },
+    {
+      "vendor": "cxmt",
+      "part_number": "CXDB5CBAM-MA-B",
+      "technology": "LPDDR4X",
+      "capacity": 32,
+      "capacity_unit": "Gb",
+      "io_width": "x32",
+      "package": "FBGA-200",
+      "data_rate_mt_s": 4266,
+      "source": "https://www.dzjie.com/wp-content/uploads/2025/03/LPDDR4X_CXDB5CBAM-MA-B.pdf",
+      "evidence": "CXMT LPDDR4X datasheet."
+    },
+    {
+      "vendor": "cxmt",
+      "part_number": "CXDB4CBAM-MK-A",
+      "technology": "LPDDR4X",
+      "capacity": 16,
+      "capacity_unit": "Gb",
+      "io_width": "x32",
+      "package": "FBGA-200",
+      "data_rate_mt_s": 3733,
+      "source": "https://pdf.elecfans.com/p/11175344.html",
+      "evidence": "CXMT LPDDR4X datasheet."
+    },
+    {
+      "vendor": "gigadevice",
+      "part_number": "GDB4CBQN",
+      "technology": "LPDDR4X",
+      "capacity": 16,
+      "capacity_unit": "Gb",
+      "io_width": "x32",
+      "package": "FBGA-200",
+      "source": "https://www.gigadevice.com.cn/product/dram/lpddr4x",
+      "evidence": "GigaDevice official product page; PN family is listed with 16Gb."
+    },
+    {
+      "vendor": "gigadevice",
+      "part_number": "GDB5CBQN",
+      "technology": "LPDDR4X",
+      "capacity": 32,
+      "capacity_unit": "Gb",
+      "io_width": "x32",
+      "package": "FBGA-200",
+      "data_rate_mt_s": 4266,
+      "source": "https://www.xcmemory.com/datasheet/DS-01314-GDB5CBQN-Rev1.1xc.pdf",
+      "evidence": "GigaDevice/XCMemory product datasheet."
     }
-  ]
+  ],
+  "record_count": 33
 }
