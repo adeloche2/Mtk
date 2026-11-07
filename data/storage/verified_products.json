@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "description": "Individually verified examples of commercial memory part numbers with sourced capacity and interface data. This is an evidence-backed subset, not a complete market catalogue.",
+  "description": "Individually sourced commercial memory part-number examples. Capacity/interface fields are populated only where the cited source confirms them; unresolved fields remain null. This is a verified subset, not a complete market catalogue.",
   "records": [
     {
       "vendor": "micron",
