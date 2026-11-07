@@ -42,6 +42,39 @@ def validate_index(relative_path: str) -> None:
             errors.append(f"{relative_path}: duplicate part number {key}")
         seen.add(key)
 
+def validate_hw_codes() -> None:
+    relative_path = "data/mediatek/soc_hw_codes.json"
+    obj = load(ROOT / relative_path)
+    if obj is None:
+        return
+    records = obj.get("records")
+    if not isinstance(records, list):
+        errors.append(f"{relative_path}: records must be an array")
+        return
+    if obj.get("record_count") != len(records):
+        errors.append(f"{relative_path}: record_count mismatch")
+    seen: set[str] = set()
+    for index, record in enumerate(records):
+        code = record.get("hw_code", "").upper()
+        if not code.startswith("0X"):
+            errors.append(f"{relative_path}: record {index} has invalid HW code")
+        if code in seen:
+            errors.append(f"{relative_path}: duplicate HW code {code}")
+        seen.add(code)
+        decimal = record.get("hw_code_decimal")
+        try:
+            if int(code, 16) != decimal:
+                errors.append(f"{relative_path}: decimal/hex mismatch for {code}")
+        except ValueError:
+            errors.append(f"{relative_path}: malformed HW code {code}")
+        da_code = record.get("da_code")
+        if da_code is not None and not str(da_code).startswith("0x"):
+            errors.append(f"{relative_path}: invalid DA code for {code}")
+        if record.get("da_code_conflict") and not record["da_code_conflict"].get("review_required"):
+            errors.append(f"{relative_path}: DA code conflict not flagged for {code}")
+
+validate_hw_codes()
+
 validate_index("data/dram/part_numbers.json")
 validate_index("data/storage/managed_nand_part_numbers.json")
 
