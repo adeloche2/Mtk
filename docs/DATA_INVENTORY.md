@@ -48,3 +48,8 @@ Penumbra provides storage-type enums and device-reported eMMC/UFS structures. Th
 ## LPDDR identification details
 
 The LPDDR dictionaries now separate generation-specific MR5 manufacturer IDs and record the mode-register fields used for identification: MR5 manufacturer, MR6/MR7 revision, LPDDR4 MR8 density/width, and LPDDR5 MR47-MR54 serial bytes. The coreboot type-code file is explicitly labelled as a project enum, not a JEDEC code.
+
+
+## MediaTek HW Code expansion (2026-11-07)
+
+The MediaTek HW Code database now contains 93 unique HW-code values merged from 45 explicit acon SoC mappings and 89 mtkclient hwconfig entries. It preserves separate HW Code and DA Code fields, silicon aliases, marketing family, source revision, and conflicts. Additional mtkclient-only mappings include legacy MT62xx/MT65xx, IoT/modem, tablet/TV and newer platforms.

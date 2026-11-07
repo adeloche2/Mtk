@@ -44,3 +44,6 @@ This page lists the structured dictionaries currently committed.
 
 | UFS manufacturer IDs | `data/storage/ufs_manufacturer_ids.json` | UFS-specific 16-bit values observed in a Preloader parser; source subset, not complete JEDEC allocation. |
 | Raw NAND manufacturer IDs | `data/flash/raw_nand/manufacturer_ids.json` | Common first-byte manufacturer mappings, not unique part identifiers. |
+
+| MediaTek HW Code database | `data/mediatek/soc_hw_codes.json` | 93 merged unique HW-code values from acon + mtkclient, with SoC aliases, marketing family and DA-code crosswalk. |
+| Raw mtkclient HW-code observations | `data/mediatek/hw_code_observations.json` | 89 exact hwconfig keys from mtkclient, preserving names, descriptions, DA mode and DA code. |
