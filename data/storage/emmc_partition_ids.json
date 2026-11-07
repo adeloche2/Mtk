@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "description": "eMMC partition/region identifiers used by Penumbra storage definitions.",
+  "source": "https://github.com/shomykohai/penumbra/blob/main/core/src/storage/emmc.rs",
+  "entries": [
+    {
+      "id": 1,
+      "name": "EMMC-BOOT1"
+    },
+    {
+      "id": 2,
+      "name": "EMMC-BOOT2"
+    },
+    {
+      "id": 3,
+      "name": "EMMC-RPMB"
+    },
+    {
+      "id": 4,
+      "name": "EMMC-GP1"
+    },
+    {
+      "id": 5,
+      "name": "EMMC-GP2"
+    },
+    {
+      "id": 6,
+      "name": "EMMC-GP3"
+    },
+    {
+      "id": 7,
+      "name": "EMMC-GP4"
+    },
+    {
+      "id": 8,
+      "name": "EMMC-USER"
+    },
+    {
+      "id": 9,
+      "name": "EMMC-END"
+    },
+    {
+      "id": 10,
+      "name": "EMMC-BOOT1BOOT2"
+    }
+  ]
+}

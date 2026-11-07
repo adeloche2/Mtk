@@ -1,0 +1,277 @@
+{
+  "schema_version": 1,
+  "description": "MediaTek DA XFlash command dictionary. Values are 32-bit command identifiers; wire_bytes are little-endian.",
+  "source": "https://github.com/shomykohai/penumbra/blob/main/core/src/da/xflash/cmd.rs",
+  "entries": [
+    {
+      "name": "SyncSignal",
+      "value": "0x434E5953",
+      "wire_bytes": [
+        "53",
+        "59",
+        "4e",
+        "43"
+      ]
+    },
+    {
+      "name": "Download",
+      "value": "0x010001",
+      "wire_bytes": [
+        "01",
+        "00",
+        "01",
+        "00"
+      ]
+    },
+    {
+      "name": "Upload",
+      "value": "0x010002",
+      "wire_bytes": [
+        "02",
+        "00",
+        "01",
+        "00"
+      ]
+    },
+    {
+      "name": "Format",
+      "value": "0x010003",
+      "wire_bytes": [
+        "03",
+        "00",
+        "01",
+        "00"
+      ]
+    },
+    {
+      "name": "WriteData",
+      "value": "0x010004",
+      "wire_bytes": [
+        "04",
+        "00",
+        "01",
+        "00"
+      ]
+    },
+    {
+      "name": "ReadData",
+      "value": "0x010005",
+      "wire_bytes": [
+        "05",
+        "00",
+        "01",
+        "00"
+      ]
+    },
+    {
+      "name": "Shutdown",
+      "value": "0x010007",
+      "wire_bytes": [
+        "07",
+        "00",
+        "01",
+        "00"
+      ]
+    },
+    {
+      "name": "BootTo",
+      "value": "0x010008",
+      "wire_bytes": [
+        "08",
+        "00",
+        "01",
+        "00"
+      ]
+    },
+    {
+      "name": "DeviceCtrl",
+      "value": "0x010009",
+      "wire_bytes": [
+        "09",
+        "00",
+        "01",
+        "00"
+      ]
+    },
+    {
+      "name": "InitExtRam",
+      "value": "0x01000A",
+      "wire_bytes": [
+        "0a",
+        "00",
+        "01",
+        "00"
+      ]
+    },
+    {
+      "name": "SetupEnvironment",
+      "value": "0x010100",
+      "wire_bytes": [
+        "00",
+        "01",
+        "01",
+        "00"
+      ]
+    },
+    {
+      "name": "SetupHwInitParams",
+      "value": "0x010101",
+      "wire_bytes": [
+        "01",
+        "01",
+        "01",
+        "00"
+      ]
+    },
+    {
+      "name": "GetPacketLength",
+      "value": "0x040007",
+      "wire_bytes": [
+        "07",
+        "00",
+        "04",
+        "00"
+      ]
+    },
+    {
+      "name": "GetConnectionAgent",
+      "value": "0x04000A",
+      "wire_bytes": [
+        "0a",
+        "00",
+        "04",
+        "00"
+      ]
+    },
+    {
+      "name": "GetEmmcInfo",
+      "value": "0x040001",
+      "wire_bytes": [
+        "01",
+        "00",
+        "04",
+        "00"
+      ]
+    },
+    {
+      "name": "GetNandInfo",
+      "value": "0x040002",
+      "wire_bytes": [
+        "02",
+        "00",
+        "04",
+        "00"
+      ]
+    },
+    {
+      "name": "GetNorInfo",
+      "value": "0x040003",
+      "wire_bytes": [
+        "03",
+        "00",
+        "04",
+        "00"
+      ]
+    },
+    {
+      "name": "GetUfsInfo",
+      "value": "0x040004",
+      "wire_bytes": [
+        "04",
+        "00",
+        "04",
+        "00"
+      ]
+    },
+    {
+      "name": "GetDaVersion",
+      "value": "0x040005",
+      "wire_bytes": [
+        "05",
+        "00",
+        "04",
+        "00"
+      ]
+    },
+    {
+      "name": "GetPartitionTblCata",
+      "value": "0x040009",
+      "wire_bytes": [
+        "09",
+        "00",
+        "04",
+        "00"
+      ]
+    },
+    {
+      "name": "GetRamInfo",
+      "value": "0x04000C",
+      "wire_bytes": [
+        "0c",
+        "00",
+        "04",
+        "00"
+      ]
+    },
+    {
+      "name": "GetChipId",
+      "value": "0x04000D",
+      "wire_bytes": [
+        "0d",
+        "00",
+        "04",
+        "00"
+      ]
+    },
+    {
+      "name": "GetDramType",
+      "value": "0x040012",
+      "wire_bytes": [
+        "12",
+        "00",
+        "04",
+        "00"
+      ]
+    },
+    {
+      "name": "GetDevFwInfo",
+      "value": "0x040013",
+      "wire_bytes": [
+        "13",
+        "00",
+        "04",
+        "00"
+      ]
+    },
+    {
+      "name": "GetHrid",
+      "value": "0x040014",
+      "wire_bytes": [
+        "14",
+        "00",
+        "04",
+        "00"
+      ]
+    },
+    {
+      "name": "GetErrorDetail",
+      "value": "0x040015",
+      "wire_bytes": [
+        "15",
+        "00",
+        "04",
+        "00"
+      ]
+    },
+    {
+      "name": "SlaEnabledStatus",
+      "value": "0x040016",
+      "wire_bytes": [
+        "16",
+        "00",
+        "04",
+        "00"
+      ]
+    }
+  ]
+}

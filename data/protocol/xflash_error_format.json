@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "description": "XFlash error status bit-field layout and domain identifiers.",
+  "source": "https://github.com/shomykohai/penumbra/blob/main/core/src/error.rs",
+  "severity": {
+    "success": "0x00000000",
+    "info": "0x40000000",
+    "warning": "0x80000000",
+    "error": "0xC0000000",
+    "mask": "0xC0000000"
+  },
+  "domains": {
+    "Common": 1,
+    "Security": 2,
+    "Library": 3,
+    "DeviceHardware": 4,
+    "Host": 5,
+    "Brom": 6,
+    "Da": 7,
+    "Preloader": 8,
+    "Extensions": 14
+  },
+  "notes": [
+    "The low code field is domain-specific.",
+    "Example 0xC0070004 means error severity, DA domain, code 4.",
+    "Do not call this an exhaustive list of XFlash error codes."
+  ]
+}

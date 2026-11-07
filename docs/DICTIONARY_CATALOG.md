@@ -1,0 +1,30 @@
+# Dictionary catalogue
+
+This page lists the structured dictionaries currently committed.
+
+| Area | File | Coverage / caveat |
+|---|---|---|
+| SoC identity | `data/mediatek/soc_hw_codes.json` | HW-code mappings collected from acon; DA code is separate and only populated where explicitly established. |
+| SPI NOR / SPI NAND | `data/flash/spi/` | Upstream importer and dataset description committed; full generated records are fetched with the sync script. |
+| JEP106 | `data/flash/jep106/manufacturers.json` | 2,306 bank/ID manufacturer records. |
+| Raw NAND | `data/flash/raw_nand/nand_ids.json` | Explicit named full-ID subset plus original Linux C table; legacy macro expansion remains pending. |
+| DRAM / EMI | `data/dram/memory_catalog.json` | BLoader schema versions and DRAM layout families observed in MTKPreloaderParser; not a universal part database. |
+| Storage types | `data/storage/storage_types.json` | Penumbra storage type enum. |
+| eMMC regions | `data/storage/emmc_partition_ids.json` | eMMC partition/region identifiers. |
+| UFS LUNs | `data/storage/ufs_lun_ids.json` | LUN identifiers; semantics are device-dependent. |
+| Preloader commands | `data/protocol/preloader_commands.json` | Command byte names from Penumbra. |
+| XFlash commands | `data/protocol/xflash_commands.json` | Command IDs and little-endian wire bytes. |
+| GFH types | `data/protocol/gfh_types.json` | GFH record type identifiers from HACC definitions. |
+| Preloader errors | `data/protocol/preloader_errors.json` | Known mapped status codes; not exhaustive. |
+| XFlash error format | `data/protocol/xflash_error_format.json` | Severity/domain bit layout, not a complete code catalogue. |
+| USB IDs | `data/protocol/usb_ids.json` | Known MediaTek VID/PID modes from Penumbra. |
+
+## Still requiring dedicated research
+
+1. Complete eMMC manufacturer/product catalogue based on CID fields and vendor part numbers.
+2. UFS manufacturer/product catalogue based on descriptors and JEDEC identifiers.
+3. LPDDR4/4X/5/5X vendor IDs, Mode Register decoding, density and package identification.
+4. Full DRAM timing/EMI corpus with exact SoC + Preloader + memory-ID provenance.
+5. Complete Raw NAND parser including legacy macro expansion and additional vendor sources.
+6. Exhaustive XFlash error-code tables across DA versions.
+7. Full GFH field schemas and version compatibility, beyond the type IDs.

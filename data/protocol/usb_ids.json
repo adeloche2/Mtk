@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "description": "MediaTek USB VID/PID identifiers observed in Penumbra's known-port table.",
+  "source": "https://github.com/shomykohai/penumbra/blob/main/core/src/port/mod.rs",
+  "entries": [
+    {
+      "vid": "0x0E8D",
+      "pid": "0x0003",
+      "mode": "BROM"
+    },
+    {
+      "vid": "0x0E8D",
+      "pid": "0x6000",
+      "mode": "Preloader"
+    },
+    {
+      "vid": "0x0E8D",
+      "pid": "0x2000",
+      "mode": "Preloader"
+    },
+    {
+      "vid": "0x0E8D",
+      "pid": "0x2001",
+      "mode": "DA"
+    },
+    {
+      "vid": "0x0E8D",
+      "pid": "0x20FF",
+      "mode": "Preloader"
+    },
+    {
+      "vid": "0x0E8D",
+      "pid": "0x3000",
+      "mode": "Preloader"
+    }
+  ]
+}

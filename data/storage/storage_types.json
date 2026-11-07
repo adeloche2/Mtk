@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "description": "Penumbra StorageType numeric dictionary.",
+  "source": "https://github.com/shomykohai/penumbra/blob/main/core/src/storage/common.rs",
+  "entries": [
+    {
+      "id": "0x00",
+      "name": "Unknown"
+    },
+    {
+      "id": "0x01",
+      "name": "eMMC"
+    },
+    {
+      "id": "0x02",
+      "name": "SDMMC"
+    },
+    {
+      "id": "0x10",
+      "name": "NAND"
+    },
+    {
+      "id": "0x11",
+      "name": "NAND SLC"
+    },
+    {
+      "id": "0x12",
+      "name": "NAND MLC"
+    },
+    {
+      "id": "0x13",
+      "name": "NAND TLC"
+    },
+    {
+      "id": "0x14",
+      "name": "NAND A-MLC"
+    },
+    {
+      "id": "0x15",
+      "name": "NAND SPI"
+    },
+    {
+      "id": "0x16",
+      "name": "NAND 3D MLC"
+    },
+    {
+      "id": "0x30",
+      "name": "UFS"
+    }
+  ]
+}

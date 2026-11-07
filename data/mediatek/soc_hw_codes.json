@@ -1,0 +1,322 @@
+{
+  "schema_version": 1,
+  "description": "MediaTek HW-code to SoC/marketing-family mapping collected from acon and Penumbra mapping research. DA code is separate from raw HW code.",
+  "source": "https://github.com/shomykohai/acon",
+  "entries": [
+    {
+      "hw_code": "0x0633",
+      "soc": "MT6570",
+      "marketing_name": "MT6570",
+      "da_code": null,
+      "da_code_note": "Not populated; do not assume DA code equals HW code"
+    },
+    {
+      "hw_code": "0x6572",
+      "soc": "MT6572",
+      "marketing_name": "MT6572",
+      "da_code": null,
+      "da_code_note": "Not populated; do not assume DA code equals HW code"
+    },
+    {
+      "hw_code": "0x6575",
+      "soc": "MT6575",
+      "marketing_name": "MT6575",
+      "da_code": null,
+      "da_code_note": "Not populated; do not assume DA code equals HW code"
+    },
+    {
+      "hw_code": "0x6577",
+      "soc": "MT6577",
+      "marketing_name": "MT6577",
+      "da_code": null,
+      "da_code_note": "Not populated; do not assume DA code equals HW code"
+    },
+    {
+      "hw_code": "0x6580",
+      "soc": "MT6580",
+      "marketing_name": "MT6580",
+      "da_code": null,
+      "da_code_note": "Not populated; do not assume DA code equals HW code"
+    },
+    {
+      "hw_code": "0x6582",
+      "soc": "MT6582",
+      "marketing_name": "MT6582",
+      "da_code": null,
+      "da_code_note": "Not populated; do not assume DA code equals HW code"
+    },
+    {
+      "hw_code": "0x6595",
+      "soc": "MT6595",
+      "marketing_name": "MT6595",
+      "da_code": null,
+      "da_code_note": "Not populated; do not assume DA code equals HW code"
+    },
+    {
+      "hw_code": "0x0321",
+      "soc": "MT6735",
+      "marketing_name": "MT6735",
+      "da_code": "0x6735",
+      "da_code_note": "Observed mapping in Penumbra device DA-selection path"
+    },
+    {
+      "hw_code": "0x0699",
+      "soc": "MT6739",
+      "marketing_name": "MT6739",
+      "da_code": "0x6739",
+      "da_code_note": "Observed mapping in Penumbra device DA-selection path"
+    },
+    {
+      "hw_code": "0x0337",
+      "soc": "MT6753",
+      "marketing_name": "MT6753",
+      "da_code": null,
+      "da_code_note": "Not populated; do not assume DA code equals HW code"
+    },
+    {
+      "hw_code": "0x0326",
+      "soc": "MT6755",
+      "marketing_name": "Helio P10 / P15 / P18",
+      "da_code": "0x6755",
+      "da_code_note": "Observed mapping in Penumbra device DA-selection path"
+    },
+    {
+      "hw_code": "0x0551",
+      "soc": "MT6757",
+      "marketing_name": "Helio P20 / P25",
+      "da_code": null,
+      "da_code_note": "Not populated; do not assume DA code equals HW code"
+    },
+    {
+      "hw_code": "0x0717",
+      "soc": "MT6761",
+      "marketing_name": "Helio A20 / A22 / A25 / P22 / G25",
+      "da_code": null,
+      "da_code_note": "Not populated; do not assume DA code equals HW code"
+    },
+    {
+      "hw_code": "0x0690",
+      "soc": "MT6763",
+      "marketing_name": "Helio P23",
+      "da_code": null,
+      "da_code_note": "Not populated; do not assume DA code equals HW code"
+    },
+    {
+      "hw_code": "0x0766",
+      "soc": "MT6765",
+      "marketing_name": "Helio P35 / G35 / G36 / G37 / G50",
+      "da_code": null,
+      "da_code_note": "Not populated; do not assume DA code equals HW code"
+    },
+    {
+      "hw_code": "0x0707",
+      "soc": "MT6768",
+      "marketing_name": "Helio P65 / G70 / G80 / G81 / G85 / G88",
+      "da_code": "0x6768",
+      "da_code_note": "Observed mapping in Penumbra device DA-selection path"
+    },
+    {
+      "hw_code": "0x0788",
+      "soc": "MT6771",
+      "marketing_name": "Helio P60 / P70",
+      "da_code": null,
+      "da_code_note": "Not populated; do not assume DA code equals HW code"
+    },
+    {
+      "hw_code": "0x0725",
+      "soc": "MT6779",
+      "marketing_name": "Helio P90 / P95",
+      "da_code": null,
+      "da_code_note": "Not populated; do not assume DA code equals HW code"
+    },
+    {
+      "hw_code": "0x0813",
+      "soc": "MT6785",
+      "marketing_name": "Helio G90 / G90T / G95",
+      "da_code": null,
+      "da_code_note": "Not populated; do not assume DA code equals HW code"
+    },
+    {
+      "hw_code": "0x1208",
+      "soc": "MT6789",
+      "marketing_name": "Helio G99 / G100 / G200",
+      "da_code": null,
+      "da_code_note": "Not populated; do not assume DA code equals HW code"
+    },
+    {
+      "hw_code": "0x0279",
+      "soc": "MT6797",
+      "marketing_name": "Helio X20 / X23 / X25 / X27",
+      "da_code": null,
+      "da_code_note": "Not populated; do not assume DA code equals HW code"
+    },
+    {
+      "hw_code": "0x0562",
+      "soc": "MT6799",
+      "marketing_name": "Helio X30",
+      "da_code": null,
+      "da_code_note": "Not populated; do not assume DA code equals HW code"
+    },
+    {
+      "hw_code": "0x0989",
+      "soc": "MT6833",
+      "marketing_name": "Dimensity 700 / 810 / 6020 / 6080",
+      "da_code": "0x6833",
+      "da_code_note": "Observed mapping in Penumbra device DA-selection path"
+    },
+    {
+      "hw_code": "0x1209",
+      "soc": "MT6835",
+      "marketing_name": "Dimensity 6100+ / 6300 / 6400",
+      "da_code": null,
+      "da_code_note": "Not populated; do not assume DA code equals HW code"
+    },
+    {
+      "hw_code": "0x0996",
+      "soc": "MT6853",
+      "marketing_name": "Dimensity 720 / 800U",
+      "da_code": null,
+      "da_code_note": "Not populated; do not assume DA code equals HW code"
+    },
+    {
+      "hw_code": "0x1129",
+      "soc": "MT6855",
+      "marketing_name": "Dimensity 930 / 7020 / 7025 / 7060",
+      "da_code": null,
+      "da_code_note": "Not populated; do not assume DA code equals HW code"
+    },
+    {
+      "hw_code": "0x1585",
+      "soc": "MT6858",
+      "marketing_name": "Dimensity 7100 / 7300e",
+      "da_code": null,
+      "da_code_note": "Not populated; do not assume DA code equals HW code"
+    },
+    {
+      "hw_code": "0x0886",
+      "soc": "MT6873",
+      "marketing_name": "Dimensity 800 / 820",
+      "da_code": null,
+      "da_code_note": "Not populated; do not assume DA code equals HW code"
+    },
+    {
+      "hw_code": "0x0959",
+      "soc": "MT6877",
+      "marketing_name": "Dimensity 900 / 920 / 1080 / 7050",
+      "da_code": null,
+      "da_code_note": "Not populated; do not assume DA code equals HW code"
+    },
+    {
+      "hw_code": "0x1375",
+      "soc": "MT6878",
+      "marketing_name": "Dimensity 7300 / 7360 / 7400",
+      "da_code": null,
+      "da_code_note": "Not populated; do not assume DA code equals HW code"
+    },
+    {
+      "hw_code": "0x1007",
+      "soc": "MT6879",
+      "marketing_name": "Dimensity 1050 / 7030",
+      "da_code": null,
+      "da_code_note": "Not populated; do not assume DA code equals HW code"
+    },
+    {
+      "hw_code": "0x0816",
+      "soc": "MT6885",
+      "marketing_name": "Dimensity 1000 / 1000+",
+      "da_code": null,
+      "da_code_note": "Not populated; do not assume DA code equals HW code"
+    },
+    {
+      "hw_code": "0x1229",
+      "soc": "MT6886",
+      "marketing_name": "Dimensity 7200 / 7350",
+      "da_code": null,
+      "da_code_note": "Not populated; do not assume DA code equals HW code"
+    },
+    {
+      "hw_code": "0x0950",
+      "soc": "MT6893",
+      "marketing_name": "Dimensity 1100 / 1200 / 1300",
+      "da_code": null,
+      "da_code_note": "Not populated; do not assume DA code equals HW code"
+    },
+    {
+      "hw_code": "0x1172",
+      "soc": "MT6895",
+      "marketing_name": "Dimensity 8000 / 8100 / 8200 / 8250",
+      "da_code": null,
+      "da_code_note": "Not populated; do not assume DA code equals HW code"
+    },
+    {
+      "hw_code": "0x1203",
+      "soc": "MT6897",
+      "marketing_name": "Dimensity 8300 / 8350",
+      "da_code": null,
+      "da_code_note": "Not populated; do not assume DA code equals HW code"
+    },
+    {
+      "hw_code": "0x6899",
+      "soc": "MT6899",
+      "marketing_name": "Dimensity 8400 / 8500 / 8550",
+      "da_code": null,
+      "da_code_note": "Not populated; do not assume DA code equals HW code"
+    },
+    {
+      "hw_code": "0x0907",
+      "soc": "MT6983",
+      "marketing_name": "Dimensity 9000 / 9000+",
+      "da_code": null,
+      "da_code_note": "Not populated; do not assume DA code equals HW code"
+    },
+    {
+      "hw_code": "0x1296",
+      "soc": "MT6985",
+      "marketing_name": "Dimensity 9200 / 9200+",
+      "da_code": null,
+      "da_code_note": "Not populated; do not assume DA code equals HW code"
+    },
+    {
+      "hw_code": "0x1236",
+      "soc": "MT6989",
+      "marketing_name": "Dimensity 9300 / 9400e",
+      "da_code": null,
+      "da_code_note": "Not populated; do not assume DA code equals HW code"
+    },
+    {
+      "hw_code": "0x1357",
+      "soc": "MT6991",
+      "marketing_name": "Dimensity 9400 / 9400+",
+      "da_code": null,
+      "da_code_note": "Not populated; do not assume DA code equals HW code"
+    },
+    {
+      "hw_code": "0x1471",
+      "soc": "MT6993",
+      "marketing_name": "Dimensity 9500",
+      "da_code": null,
+      "da_code_note": "Not populated; do not assume DA code equals HW code"
+    },
+    {
+      "hw_code": "0x1529",
+      "soc": "MT6995",
+      "marketing_name": "Dimensity 9600",
+      "da_code": null,
+      "da_code_note": "Not populated; do not assume DA code equals HW code"
+    },
+    {
+      "hw_code": "0x8188",
+      "soc": "MT8188",
+      "marketing_name": "Kompanio 838",
+      "da_code": null,
+      "da_code_note": "Not populated; do not assume DA code equals HW code"
+    },
+    {
+      "hw_code": "0x0908",
+      "soc": "MT8696",
+      "marketing_name": "MT8696",
+      "da_code": null,
+      "da_code_note": "Not populated; do not assume DA code equals HW code"
+    }
+  ]
+}

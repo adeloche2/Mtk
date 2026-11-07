@@ -1,0 +1,195 @@
+{
+  "schema_version": 1,
+  "description": "MediaTek BootROM/Preloader command-byte dictionary. Availability varies by generation and device.",
+  "source": "https://github.com/shomykohai/penumbra/blob/main/core/src/preloader/cmd.rs",
+  "entries": [
+    {
+      "name": "SendImage",
+      "code": "0x70"
+    },
+    {
+      "name": "BootImage",
+      "code": "0x71"
+    },
+    {
+      "name": "StayStill",
+      "code": "0x80"
+    },
+    {
+      "name": "SendDebugAuth",
+      "code": "0x88"
+    },
+    {
+      "name": "LegacyWrite",
+      "code": "0xA1"
+    },
+    {
+      "name": "LegacyRead",
+      "code": "0xA2"
+    },
+    {
+      "name": "I2cInit",
+      "code": "0xB0"
+    },
+    {
+      "name": "I2cDeinit",
+      "code": "0xB1"
+    },
+    {
+      "name": "I2cWrite8",
+      "code": "0xB2"
+    },
+    {
+      "name": "I2cRead8",
+      "code": "0xB3"
+    },
+    {
+      "name": "I2cSetSpeed",
+      "code": "0xB4"
+    },
+    {
+      "name": "PwrInit",
+      "code": "0xC4"
+    },
+    {
+      "name": "PwrDeinit",
+      "code": "0xC5"
+    },
+    {
+      "name": "PwrRead16",
+      "code": "0xC6"
+    },
+    {
+      "name": "PwrWrite16",
+      "code": "0xC7"
+    },
+    {
+      "name": "CacheControl",
+      "code": "0xC8"
+    },
+    {
+      "name": "Read16",
+      "code": "0xD0"
+    },
+    {
+      "name": "Read32",
+      "code": "0xD1"
+    },
+    {
+      "name": "Write16",
+      "code": "0xD2"
+    },
+    {
+      "name": "Write16NoEcho",
+      "code": "0xD3"
+    },
+    {
+      "name": "Write32",
+      "code": "0xD4"
+    },
+    {
+      "name": "JumpDa",
+      "code": "0xD5"
+    },
+    {
+      "name": "JumpBl",
+      "code": "0xD6"
+    },
+    {
+      "name": "SendDa",
+      "code": "0xD7"
+    },
+    {
+      "name": "GetTargetConfig",
+      "code": "0xD8"
+    },
+    {
+      "name": "SendEppParam",
+      "code": "0xD9"
+    },
+    {
+      "name": "SysRegionAccess",
+      "code": "0xDA"
+    },
+    {
+      "name": "Uart1LogEn",
+      "code": "0xDB"
+    },
+    {
+      "name": "Uart1SetBaudrate",
+      "code": "0xDC"
+    },
+    {
+      "name": "GetBromLog",
+      "code": "0xDD"
+    },
+    {
+      "name": "JumpDa64",
+      "code": "0xDE"
+    },
+    {
+      "name": "GetBromLogWithStatus",
+      "code": "0xDF"
+    },
+    {
+      "name": "SendCert",
+      "code": "0xE0"
+    },
+    {
+      "name": "GetMeId",
+      "code": "0xE1"
+    },
+    {
+      "name": "SendAuth",
+      "code": "0xE2"
+    },
+    {
+      "name": "SlaChallenge",
+      "code": "0xE3"
+    },
+    {
+      "name": "GenExpirationId",
+      "code": "0xE4"
+    },
+    {
+      "name": "SendRootCert",
+      "code": "0xE5"
+    },
+    {
+      "name": "GetRootCertInfo",
+      "code": "0xE6"
+    },
+    {
+      "name": "GetSocId",
+      "code": "0xE7"
+    },
+    {
+      "name": "SendCertWithStatus",
+      "code": "0xE8"
+    },
+    {
+      "name": "Zeroization",
+      "code": "0xF0"
+    },
+    {
+      "name": "GetPlCap",
+      "code": "0xFB"
+    },
+    {
+      "name": "GetHwSwVer",
+      "code": "0xFC"
+    },
+    {
+      "name": "GetHwCode",
+      "code": "0xFD"
+    },
+    {
+      "name": "GetPlVer",
+      "code": "0xFE"
+    },
+    {
+      "name": "GetBrVer",
+      "code": "0xFF"
+    }
+  ]
+}

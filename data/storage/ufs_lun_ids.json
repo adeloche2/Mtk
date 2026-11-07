@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "description": "UFS logical-unit identifiers. Their actual usage/role depends on device configuration.",
+  "source": "https://github.com/shomykohai/penumbra/blob/main/core/src/storage/ufs.rs",
+  "entries": [
+    {
+      "id": 0,
+      "name": "UFS-UNKNOWN",
+      "semantic_role": "device/configuration-dependent"
+    },
+    {
+      "id": 1,
+      "name": "UFS-LUA0",
+      "semantic_role": "device/configuration-dependent"
+    },
+    {
+      "id": 2,
+      "name": "UFS-LUA1",
+      "semantic_role": "device/configuration-dependent"
+    },
+    {
+      "id": 3,
+      "name": "UFS-LUA2",
+      "semantic_role": "device/configuration-dependent"
+    },
+    {
+      "id": 4,
+      "name": "UFS-LUA3",
+      "semantic_role": "device/configuration-dependent"
+    },
+    {
+      "id": 5,
+      "name": "UFS-LUA4",
+      "semantic_role": "device/configuration-dependent"
+    },
+    {
+      "id": 6,
+      "name": "UFS-LUA5",
+      "semantic_role": "device/configuration-dependent"
+    },
+    {
+      "id": 7,
+      "name": "UFS-LUA6",
+      "semantic_role": "device/configuration-dependent"
+    },
+    {
+      "id": 8,
+      "name": "UFS-LUA7",
+      "semantic_role": "device/configuration-dependent"
+    },
+    {
+      "id": 9,
+      "name": "UFS-LUA0LUA1",
+      "semantic_role": "device/configuration-dependent"
+    }
+  ]
+}

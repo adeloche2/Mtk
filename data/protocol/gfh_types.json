@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "description": "GFH record type identifiers observed in the MediaTek GFH parser definitions.",
+  "source": "https://github.com/shomykohai/hacc",
+  "entries": [
+    {
+      "name": "FileInfo",
+      "value": "0x0000"
+    },
+    {
+      "name": "BlInfo",
+      "value": "0x0001"
+    },
+    {
+      "name": "AntiClone",
+      "value": "0x0002"
+    },
+    {
+      "name": "BlSecKey",
+      "value": "0x0003"
+    },
+    {
+      "name": "SctrlCert",
+      "value": "0x0004"
+    },
+    {
+      "name": "ToolAuth",
+      "value": "0x0005"
+    },
+    {
+      "name": "Reserved1",
+      "value": "0x0006"
+    },
+    {
+      "name": "BromCfg",
+      "value": "0x0007"
+    },
+    {
+      "name": "BromSecCfg",
+      "value": "0x0008"
+    },
+    {
+      "name": "RootCert",
+      "value": "0x000B"
+    },
+    {
+      "name": "EppParam",
+      "value": "0x000D"
+    },
+    {
+      "name": "ChipVer",
+      "value": "0x000E"
+    },
+    {
+      "name": "MultiSecCfg",
+      "value": "0x0060"
+    },
+    {
+      "name": "EppInfo",
+      "value": "0x0100"
+    },
+    {
+      "name": "EmiList",
+      "value": "0x0101"
+    },
+    {
+      "name": "CmemIdInfo",
+      "value": "0x0102"
+    },
+    {
+      "name": "CmemNorInfo",
+      "value": "0x0103"
+    },
+    {
+      "name": "DspInfo",
+      "value": "0x0104"
+    }
+  ]
+}
