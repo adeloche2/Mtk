@@ -75,6 +75,29 @@ def validate_hw_codes() -> None:
 
 validate_hw_codes()
 
+def validate_bbchip_ids() -> None:
+    relative_path = "data/mediatek/bbchip_type_ids.json"
+    obj = load(ROOT / relative_path)
+    if obj is None:
+        return
+    records = obj.get("records", [])
+    if obj.get("record_count") != len(records):
+        errors.append(f"{relative_path}: record_count mismatch")
+    seen_symbols: set[str] = set()
+    for index, record in enumerate(records):
+        symbol = record.get("symbol")
+        value = record.get("value")
+        if not symbol or not isinstance(value, int):
+            errors.append(f"{relative_path}: record {index} missing symbol or integer value")
+            continue
+        if symbol in seen_symbols:
+            errors.append(f"{relative_path}: duplicate symbol {symbol}")
+        seen_symbols.add(symbol)
+        if record.get("alias_of") and record.get("value") is None:
+            errors.append(f"{relative_path}: unresolved alias {symbol}")
+
+validate_bbchip_ids()
+
 validate_index("data/dram/part_numbers.json")
 validate_index("data/storage/managed_nand_part_numbers.json")
 
